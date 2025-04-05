@@ -1,0 +1,83 @@
+{
+  "steps": [
+    {
+      "step": "Review RFP and Gap Analysis",
+      "description": "Thoroughly review all RFP requirements and the provided gap analysis to understand the scope and identify any remaining questions.",
+      "priority": "High",
+      "estimated_days": 1
+    },
+    {
+      "step": "Attend Mandatory Pre-Proposal Conference",
+      "description": "Ensure attendance at the pre-proposal conference to gather further information and address any ambiguities.",
+      "priority": "High",
+      "estimated_days": 0.5
+    },
+    {
+      "step": "Address Insurance Gaps",
+      "description": "Contact insurance provider to confirm General Liability breakdown, secure Contractual Liability coverage, and add the waiver of subrogation clause. Obtain updated Certificate of Insurance (COI).",
+      "priority": "High",
+      "estimated_days": 2
+    },
+    {
+      "step": "Gather Financial Documents",
+      "description": "Prepare the required Annual Report and/or CPA Solvency Letter as proof of financial stability.",
+      "priority": "High",
+      "estimated_days": 2
+    },
+    {
+      "step": "Obtain Texas-Specific Certifications",
+      "description": "Obtain and complete the certifications related to Boycotting Israel and Prohibited Business Operations in Texas.",
+      "priority": "High",
+      "estimated_days": 3
+    },
+    {
+      "step": "Assign Dedicated Project Manager",
+      "description": "Formally assign a dedicated Project Manager for the MHMR account and update their resume/bio for inclusion in the proposal.",
+      "priority": "Medium",
+      "estimated_days": 1
+    },
+    {
+      "step": "Develop Staffing Plan and Highlight Relevant Experience",
+      "description": "Develop a comprehensive staffing plan that addresses MHMR’s specific position requirements, emphasizing experience in healthcare and related fields.  Showcase relevant past performance and highlight the ability to quickly fill positions.",
+      "priority": "High",
+      "estimated_days": 3
+    },
+    {
+      "step": "Develop Pricing Strategy",
+      "description": "Develop a competitive pricing strategy for the various positions listed in the RFP, considering MHMR's best-value approach.",
+      "priority": "High",
+      "estimated_days": 2
+    },
+    {
+      "step": "Address HUB/M/W/DBE Requirements",
+      "description": "Complete Attachment A, outlining good faith efforts related to HUB/M/W/DBE utilization, and highlight existing HUB and NMSDC certifications.",
+      "priority": "Medium",
+      "estimated_days": 2
+    },
+    {
+      "step": "Compile Required Forms and Documentation",
+      "description": "Gather and complete all required forms, ensuring proper signatures, notarization (where applicable), and formatting.",
+      "priority": "High",
+      "estimated_days": 2
+    },
+    {
+      "step": "Write and Review Proposal Sections",
+      "description": "Draft all proposal sections, including the executive summary, company information, experience, staffing plan, compliance details, and pricing. Ensure the proposal clearly addresses all evaluation criteria.",
+      "priority": "High",
+      "estimated_days": 5
+    },
+    {
+      "step": "Internal Proposal Review and Revisions",
+      "description": "Conduct a thorough internal review of the proposal for accuracy, completeness, and compliance with RFP requirements. Make necessary revisions.",
+      "priority": "High",
+      "estimated_days": 2
+    },
+    {
+      "step": "Prepare Final Proposal Documents and Submit",
+      "description": "Prepare the final proposal document (printed and electronic copies), ensuring proper binding, labeling, and sealing. Submit the proposal by the deadline.",
+      "priority": "High",
+      "estimated_days": 1
+    }
+  ],
+  "overall_strategy": "Focus on highlighting RFQXpert's strengths, including experience in healthcare staffing, strong financial standing, and relevant certifications. Clearly address all RFP requirements and demonstrate a deep understanding of MHMR's needs and values.  Proactively address any perceived gaps, particularly around insurance and experience with specific roles.  Provide a competitive pricing strategy while emphasizing quality and reliability.  Ensure meticulous compliance with all submission requirements and deadlines."
+}
