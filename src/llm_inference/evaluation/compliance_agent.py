@@ -158,7 +158,7 @@ async def evaluate_eligibility(rfp_text: str) -> EligibilityData:
     eligibility_data = parse_gemini_response(response)
 
     # Save the output to a JSON file
-    output_path = os.path.join(project_root, 'data', 'eligibility_output.json')
+    output_path = os.path.join(project_root, 'data', 'compliance_output.json')
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     try:

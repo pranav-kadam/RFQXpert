@@ -1,0 +1,74 @@
+{
+  "risk_assessment": {
+    "overall_risk_score": 3.2,
+    "high_risk_items": [
+      {
+        "category": "Legal/Contractual",
+        "severity": 5,
+        "likelihood": 3,
+        "description": "The RFP includes strict indemnification requirements, holding RFQXpert responsible for liabilities arising from negligence or wrongful acts.  This could expose RFQXpert to significant financial risk depending on the activities of temporary employees.",
+        "mitigation": "Thoroughly review the indemnification clause with legal counsel.  Negotiate for clearer definitions of negligence and wrongful acts, and cap the potential liability. Ensure adequate insurance coverage, including contractual liability, to cover potential claims."
+      },
+      {
+        "category": "Financial",
+        "severity": 4,
+        "likelihood": 4,
+        "description": "The pricing structure dictates that decreases in pay rate must lower the billing rate, while increases in pay rate do not increase the billing rate.  This creates a risk of margin erosion if RFQXpert experiences increased labor costs during the contract period. Fluctuations in the market, new compliance costs could all increase operational costs beyond the fixed billing rate. Moreover, this is a non-exclusive contract with no guarantee of work, meaning revenue is uncertain.",
+        "mitigation": "Conduct thorough market research and cost analysis to establish competitive but profitable billing rates.  Develop a contingency plan to address potential increases in labor costs, such as negotiating favorable terms with contractors or exploring cost-saving measures. Negotiate in pricing section that costs will be evaluated every 12 months."
+      },
+      {
+        "category": "Compliance/Insurance",
+        "severity": 4,
+        "likelihood": 3,
+        "description": "The RFP requires specific insurance limits, including naming MHMR as an additional insured and a waiver of subrogation. RFQXpert's current insurance coverage for Employers Liability and Auto Liability is lower than required. If a loss occurs, the coverage could be deemed insufficient.",
+        "mitigation": "Contact the insurance provider immediately to increase Employer's Liability and Auto Liability coverage to meet the RFP requirements. Obtain and submit the required Certificate of Insurance (COI) with the proposal, ensuring it names MHMR as an additional insured and includes a waiver of subrogation.  Subcontractor meet insurance requirements"
+      }
+    ],
+    "medium_risk_items": [
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 4,
+        "description": "The RFP requires a dedicated project manager for the MHMR account. RFQXpert must ensure it has the capacity to assign a qualified project manager to oversee the contract effectively. Also the scope of work is broad, including Admin, Medical, Accounting, IT which will put pressure on recruiters.",
+        "mitigation": "Assess current staffing levels and allocate a dedicated and trained Project Manager. Develop a clear communication and reporting structure to ensure seamless service delivery and compliance. Review recruiters capacity and assess additional hires."
+      },
+      {
+        "category": "Legal/Contractual",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "The RFP includes Texas-specific compliance requirements, such as the \"No Boycotting Israel\" and \"No Prohibited Business Operations\" certifications. Failure to comply with these laws could result in disqualification or penalties.",
+        "mitigation": "Ensure RFQXpert's operations and investments comply with these Texas laws.  Obtain the necessary certifications and include them in the proposal."
+      },
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "The requirement to adhere to MHMR's non-discrimination policy and make good faith efforts to utilize HUBs and M/W/DBEs can be challenging if RFQXpert's internal policies and supplier network do not adequately reflect these principles.",
+        "mitigation": "Review and update RFQXpert's non-discrimination policy to align with MHMR's requirements.  Actively seek out and engage HUBs and M/W/DBEs in the sourcing and procurement process. Document all efforts to utilize these businesses."
+      },
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "The required weekly timesheet completion and submittal to MHMR, along with separate invoices per employee with all relevant details could add a significant burden on administrative and accounting resources.",
+        "mitigation": "Streamline internal timesheet and invoicing processes to ensure accuracy and efficiency. Implement an electronic timesheet and invoicing system if necessary.  Ensure timesheet approvals are obtained by MHMR."
+      }
+    ],
+    "low_risk_items": [
+      {
+        "category": "Technical",
+        "severity": 2,
+        "likelihood": 2,
+        "description": "Returning keys at end of assignment and contractor bearing the cost is minor.",
+        "mitigation": "Implement key collection procedures to make sure keys are tracked."
+      },
+      {
+        "category": "Operational",
+        "severity": 1,
+        "likelihood": 1,
+        "description": "Attending the mandatory pre-proposal conference.",
+        "mitigation": "Schedule attendance and prepare relevant questions."
+      }
+    ]
+  }
+}

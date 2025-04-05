@@ -1,23 +1,18 @@
-from fastapi import FastAPI
-from dotenv import load_dotenv
+# main.py
 
-load_dotenv()
+from evaluation.eligilibity_agent import main as eligibility_main
+from evaluation.compliance_agent import main as compliance_main
+from evaluation.checklist_agent import main as checklist_main
 
-app = FastAPI(
-    title="RFP Analysis System with Gemini",
-    version="2.0",
-    docs_url="/api/docs",
-    redoc_url=None
-)
+def run_agents():
+    print("Running Eligibility Agent...")
+    eligibility_main()
 
+    print("Running Compliance Agent...")
+    compliance_main()
 
-@app.on_event("startup")
-async def startup_event():
-    # Initialize Gemini client
-    from llm_inference.utils.gemini import gemini_client
-    try:
-        # Test connection
-        await gemini_client.generate_content("Test connection")
-        print("Gemini connection successful")
-    except Exception as e:
-        print(f"Gemini connection failed: {str(e)}")
+    print("Running Checklist Agent...")
+    checklist_main()
+
+if __name__ == "__main__":
+    run_agents()
