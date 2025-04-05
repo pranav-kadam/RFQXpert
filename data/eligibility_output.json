@@ -1,67 +1,51 @@
 {
-  "risk_assessment": {
-    "overall_risk_score": 3.2,
-    "high_risk_items": [
-      {
-        "category": "Legal/Contractual",
-        "severity": 5,
-        "likelihood": 3,
-        "description": "Indemnification Clause: RFQXpert is required to indemnify and hold harmless MHMR from suits, actions, claims, and costs arising from RFQXpert's negligence or wrongful acts. This could expose RFQXpert to significant financial liabilities depending on the circumstances.",
-        "mitigation": "Thoroughly review the indemnification clause with legal counsel to understand the scope of liability. Negotiate limitations to the indemnification obligations, such as capping the amount or specifying the types of claims covered. Ensure adequate insurance coverage (including contractual liability coverage) to address potential claims."
-      },
-      {
-        "category": "Financial",
-        "severity": 4,
-        "likelihood": 4,
-        "description": "Pricing Structure: MHMR requires a detailed pricing breakdown (hourly rate paid to temp, billing percentage, and billed hourly rate). Increases in pay rate do not increase the proposed bill rate. This limits RFQXpert's ability to adjust pricing during the contract term to reflect rising costs.",
-        "mitigation": "Carefully analyze all cost components (salary, benefits, overhead, profit) to ensure that the proposed pricing is sustainable and profitable. Factor in potential cost increases over the contract term (e.g., wage inflation, benefit costs). Consider building a contingency into the pricing to account for unforeseen cost fluctuations. Explore potential renegotiation clauses related to significant cost increases, if possible."
-      },
-      {
-        "category": "Compliance",
-        "severity": 4,
-        "likelihood": 4,
-        "description": "Insurance Requirements: The RFP mandates specific insurance limits and requires RFQXpert to name MHMR as an additional insured. The Employers Liability is $500,000 while RFQXpert only has $1M, this is a problem, and CGL for property damage is $1,000,000 while RFQXpert only carries $2,000,000 total. Furthermore, subcontractors also need to meet these requirements adding a logistical and compliance challenge.",
-        "mitigation": "Immediately contact the insurance provider to confirm the current policy's coverage limits and obtain a certificate of insurance (COI) that meets the RFP's requirements. Request the necessary endorsements to add MHMR as an additional insured and obtain a waiver of subrogation. RFQXpert should obtain a current COI from its subcontractors as well to confirm that they are compliant."
-      }
-    ],
-    "medium_risk_items": [
-      {
-        "category": "Operational",
-        "severity": 3,
-        "likelihood": 5,
-        "description": "Mandatory Pre-Proposal Conference: Attendance is required for bid eligibility. Missing the conference would automatically disqualify RFQXpert.",
-        "mitigation": "Ensure that a representative from RFQXpert attends the pre-proposal conference on Wednesday, February 12, 2025, at 10:00 AM. Confirm attendance with MHMR beforehand and keep a record of attendance."
-      },
-      {
-        "category": "Operational",
-        "severity": 3,
-        "likelihood": 4,
-        "description": "Rapid Response Requirements: The RFP emphasizes the need for quick placement of temporary staff on an as-needed basis. RFQXpert needs to have sufficient resources (recruiters, database of candidates) to meet these demands.",
-        "mitigation": "Assess current staffing capacity and recruitment processes to ensure that RFQXpert can respond quickly to placement requests. Enhance the candidate database through active sourcing and networking. Develop a streamlined process for screening and onboarding temporary staff."
-      },
-      {
-        "category": "Operational",
-        "severity": 3,
-        "likelihood": 3,
-        "description": "HUB/M/W/DBE Utilization: RFQXpert is required to make a good-faith effort to utilize HUBs and M/W/DBEs. If RFQXpert is not certified, it may face challenges.",
-        "mitigation": "Identify potential HUB and M/W/DBE subcontractors who can provide relevant services. Document efforts to solicit bids from these subcontractors. If unable to meet the HUB/M/W/DBE requirements, provide a detailed explanation in Attachment A and demonstrate a genuine effort to comply."
-      }
-    ],
-    "low_risk_items": [
-      {
-        "category": "Technical",
-        "severity": 2,
-        "likelihood": 2,
-        "description": "Timesheet and Invoicing Requirements: The RFP specifies detailed requirements for timesheets and invoices, including weekly completion, MHMR supervisor approval, and separate invoices per employee. These requirements need to be carefully adhered to.",
-        "mitigation": "Implement a standardized timesheet and invoicing process that complies with the RFP's requirements. Provide training to temporary employees and MHMR supervisors on the process. Use automated tools to track hours worked and generate accurate invoices."
-      },
-      {
-        "category": "Compliance",
-        "severity": 2,
-        "likelihood": 1,
-        "description": "Texas-Specific Certifications: RFQXpert is required to provide certifications regarding boycotting Israel and prohibited business operations. This requires legal review to ensure compliance.",
-        "mitigation": "Review the relevant Texas Government Code sections (e.g., relating to boycotting Israel and prohibited business operations) with legal counsel. Complete and submit the required certifications, confirming compliance with the applicable laws."
-      }
-    ]
-  }
+  "meets_criteria": false,
+  "met_requirements": [
+    "Minimum three (3) years of business in Temporary Staffing Services at the time of bid due date. (RFQXpert established in 2020, RFP due in 2025 -> 5 years)",
+    "Must demonstrate financial stability (Annual Report, CPA Solvency Letter, etc.). (RFQXpert has a credit rating of 'A', debt-to-equity of 0.8, current ratio of 2.5, and bank references available. This strongly suggests financial stability.)",
+    "Must comply with all specified legal requirements. (RFQXpert has licenses, E-Verify, and background checks)",
+    "Provide temporary employees of indefinite quantities on an as-needed, non-exclusive basis. (RFQXpert provides temporary staffing services)",
+    "Workers must be >= 18 years old, sober, reliable, clean, appropriately dressed, able to follow instructions. (Assumed to be part of RFQXpert's Standard Operating Procedures)",
+    "Contractor must conduct background checks. (RFQXpert conducts background checks)",
+    "Return all keys upon assignment completion; Contractor bears cost of re-keying if keys are lost/not returned. (Presumed to be part of RFQXpert's standard procedures and can be implemented)",
+    "Comply with all State, Federal, Local Laws (incl. ADA, Title VII, ADEA, CRA 1991). (RFQXpert presumed to comply)",
+    "Contractor responsible for payroll, deductions, taxes, insurance, wages, benefits for its employees. (RFQXpert presumed to be compliant with this since they provide staffing services)",
+    "Comply with Immigration Reform and Control Act of 1986. Use E-Verify if required by funding source. (RFQXpert uses E-Verify)",
+    "Adhere to MHMR's non-discrimination policy. (RFQXpert presumed to adhere)",
+    "Texas Public Information Act compliance. (Presumed. Legal and compliance review needed to confirm.)",
+    "No Boycotting Israel certification (TX Gov Code). (Presumed. Legal and compliance review needed to confirm.)",
+    "No Prohibited Business Operations certification (Sudan, Iran, Terrorist Orgs - TX Gov Code). (Presumed. Legal and compliance review needed to confirm.)",
+    "Contractor must indemnify and hold harmless MHMR from suits, actions, claims, costs arising from contractor's negligence or wrongful acts. (Assumed to be included in contract agreement. Legal review needed to confirm)",
+    "Submission format, copies, delivery, address, deadline, envelope marking, signing, late proposals. (These are procedural and can be followed.)",
+    "BackgroundChecks requirement mentioned in SpecificRequirements is met",
+    "Ability to respond quickly to requests. (Presumed. Based on staffing and expertise.)",
+    "Provide timesheets, completed weekly, approved by MHMR supervisor, attached to invoices. (Timesheet procedures can be implemented by the company.)",
+    "Invoicing: Separate invoices per employee; include correct rates, position, start/end dates. Invoice weekly, bi-weekly, or monthly. Payment terms Net 30 minimum. (Invoicing procedures can be implemented by the company.)"
+  ],
+  "unmet_requirements": [
+    "Mandatory attendance required for all vendors submitting a bid at Pre-Proposal Conference. (No information if RFQXpert attended)",
+    "Proof of insurance (current COI) MUST be submitted WITH the proposal. (Employers Liability and Auto Liability insurance limits are less than minimum required in RFP)",
+    "Provide COI naming MHMR, its officers, employees, and elected representatives as additional insured. (Currently does not, COI will need to be updated)",
+    "HUB/DBE Utilization Assessment (If applicable, or indicate None) (Requires either HUB/DBE certification or demonstrating 'good faith' effort).",
+    "Assign a dedicated Project Manager for MHMR account. (Company data does not indicate dedicated PM, but could be assigned)",
+    "Provide copies of relevant licenses, certifications, permits. (RFQXpert has licenses and certifications but proof of copies not mentioned)"
+  ],
+  "reasons": [
+    "Attendance at the Pre-Proposal Conference is unknown.",
+    "Insurance coverage does not fully meet the RFP's minimum requirements for Employer's Liability ($500K min. req.) and Auto Liability ($500K min. req.)",
+    "RFQXpert does not yet have a COI naming MHMR as an additional insured.",
+    "RFQXpert needs to complete the HUB/DBE Utilization Assessment, demonstrating either active HUB/DBE participation or good faith efforts.",
+    "No information is provided on the submission of license copies."
+  ],
+  "recommendations": [
+    "Confirm attendance at the Mandatory Pre-Proposal Conference.",
+    "Increase Employers Liability and Auto Liability insurance coverage to meet or exceed the RFP requirements. Need to increase Employer's Liability to $500K and Auto Liability to $500K.",
+    "Obtain a Certificate of Insurance (COI) that specifically names MHMR of Tarrant County, its officers, employees, and elected representatives as additional insured. Ensure that the insurance policy meets all of MHMR's minimum requirements.",
+    "Complete the HUB/DBE Utilization Assessment (Attachment A), documenting either HUB/DBE participation or a demonstration of good faith efforts to include them.",
+    "Assign a dedicated Project Manager for the MHMR account and ensure their availability to fulfill the contract requirements.",
+    "Gather copies of all relevant licenses, certifications, and permits to submit with the proposal.",
+    "Create a check list of required forms to make sure that are filled out, notarized and included as required by RFP.",
+    "Obtain signed copies of Texas specific documents.",
+    "If RFQXpert intends to submit a proposal, legal and compliance review is necessary to confirm compliance with all relevant regulations."
+  ]
 }

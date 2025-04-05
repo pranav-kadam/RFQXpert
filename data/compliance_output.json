@@ -1,0 +1,74 @@
+{
+  "risk_assessment": {
+    "overall_risk_score": 3.2,
+    "high_risk_items": [
+      {
+        "category": "Legal/Contractual",
+        "severity": 5,
+        "likelihood": 3,
+        "description": "Indemnification Clause: The RFP requires RFQXpert to indemnify and hold MHMR harmless. This could expose RFQXpert to significant financial liability if a temporary employee's negligence or wrongful acts result in substantial claims against MHMR. The broad scope of indemnification needs careful review.",
+        "mitigation": "Review the indemnification clause with legal counsel to understand its implications and negotiate limitations. Consider obtaining additional insurance coverage to mitigate potential liabilities arising from this clause."
+      },
+      {
+        "category": "Financial",
+        "severity": 4,
+        "likelihood": 4,
+        "description": "Pricing Structure: The RFP dictates that decreases in pay rate must result in lowered bill rates, but increases in pay rate do not automatically increase the bill rate. This could lead to reduced profitability if labor costs increase during the contract term, making it difficult to attract and retain qualified candidates at the proposed rates.",
+        "mitigation": "Carefully model potential cost fluctuations (salary inflation, benefits) and incorporate a buffer in the initial pricing. Explore potential escalation clauses that allow for price adjustments based on documented increases in labor costs, subject to MHMR's approval."
+      },
+      {
+        "category": "Compliance",
+        "severity": 4,
+        "likelihood": 4,
+        "description": "Insurance Requirements: The RFP mandates specific insurance coverage with MHMR named as an additional insured, including Employers Liability of $500,000 and CGL Occurrence of $1,000,000. RFQXpert's current Employer's Liability is at $1M which is greater than the required amount, RFQXpert's current CGL Occurrence is at $2M which is greater than the required amount. If the current amount would have been lesser, failing to provide proper coverage and include the additional insured endorsement in the Certificate of Insurance (COI) with the proposal may lead to disqualification.",
+        "mitigation": "Verify that the current Certificate of Insurance (COI) meets all stated requirements, including naming MHMR and its relevant parties as additional insured. Obtain confirmation from the insurance provider that they can provide a compliant COI on time and on award. Submit documentation of the confirmation with the proposal."
+      }
+    ],
+    "medium_risk_items": [
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 4,
+        "description": "Mandatory Pre-Proposal Conference: Attendance is mandatory to be eligible for submitting a bid. Failure to attend will automatically disqualify RFQXpert.",
+        "mitigation": "Ensure a representative attends the pre-proposal conference and diligently takes notes. Ask clarifying questions to understand the RFP requirements fully."
+      },
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "Temp-to-Hire Provision: Allowing MHMR to hire temporary employees after 520 hours (approximately 3 months) at no additional cost could impact RFQXpert's long-term revenue stream. High temp-to-hire conversions could necessitate increased recruitment efforts to maintain adequate staffing levels.",
+        "mitigation": "Model the potential impact of temp-to-hire conversions on revenue and factor recruitment costs into pricing. Consider negotiating a slightly higher hourly rate to offset the loss of future revenue from temp-to-hire conversions, or including a clause that if a certain percentage of workers convert, a fee might apply."
+      },
+      {
+        "category": "Legal/Contractual",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "Texas Specific Compliance: RFQXpert must certify compliance with laws regarding boycotting Israel and prohibited business operations. Failure to comply could result in rejection of the proposal.",
+        "mitigation": "Review company policies and operations to ensure compliance with these laws. Complete and submit the required certifications accurately and honestly."
+      },
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "HUB/MWDBE Requirements: The RFP requires RFQXpert to demonstrate good faith efforts to utilize HUBs and M/W/DBEs. Failure to demonstrate such efforts could negatively impact the evaluation score.",
+        "mitigation": "Identify and contact potential HUB/M/W/DBE subcontractors or suppliers to fulfill a portion of the contract. Document all outreach efforts, even if unsuccessful, to demonstrate good faith."
+      }
+    ],
+    "low_risk_items": [
+      {
+        "category": "Technical",
+        "severity": 2,
+        "likelihood": 2,
+        "description": "Proposal Format: The RFP specifies a detailed format and submission process (8.5x11, bound, numbered pages, etc.). Failure to adhere to these guidelines may lead to rejection.",
+        "mitigation": "Assign a dedicated team member to meticulously review and adhere to all formatting and submission requirements. Double-check all deliverables before submission."
+      },
+      {
+        "category": "Operational",
+        "severity": 2,
+        "likelihood": 2,
+        "description": "Background Checks: The RFP requires background checks on all temporary employees. RFQXpert already performs these, but the scope and frequency need to align with MHMR's requirements. Discrepancies may lead to compliance issues.",
+        "mitigation": "Review MHMR's background check requirements and ensure RFQXpert's current procedures meet or exceed those requirements. Document the background check process thoroughly."
+      }
+    ]
+  }
+}
