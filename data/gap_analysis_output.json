@@ -1,0 +1,71 @@
+{
+  "gaps": [
+    {
+      "requirement": "Minimum three (3) years of business in Temporary Staffing Services",
+      "current_capability": "4 years in business",
+      "gap": "None",
+      "recommendation": "Highlight the company's 4 years of experience in the proposal."
+    },
+    {
+      "requirement": "Financial Stability demonstration (Annual Report, CPA Solvency Letter)",
+      "current_capability": "Credit Rating A, financials available but type of documentation not specified",
+      "gap": "Need to prepare specific financial documents requested.",
+      "recommendation": "Gather the required Annual Report and/or CPA Solvency Letter to demonstrate financial stability."
+    },
+    {
+      "requirement": "Employers Liability Insurance $500,000",
+      "current_capability": "$1M",
+      "gap": "None, exceeds requirement.",
+      "recommendation": "Clearly state the existing coverage in the proposal."
+    },
+    {
+      "requirement": "CGL Occurrence $1,000,000, Aggregate $2,000,000 (Bodily/Personal Injury) and $1,000,000 (Property Damage)",
+      "current_capability": "General Liability $2M (unspecified breakdown)",
+      "gap": "Need to verify the breakdown of General Liability coverage meets specified limits.",
+      "recommendation": "Confirm with the insurance provider that the current policy meets or exceeds the RFP requirements. Adjust coverage if necessary or provide a clear breakdown of the existing $2M coverage."
+    },
+    {
+      "requirement": "Auto Liability $500,000 combined single limit",
+      "current_capability": "$1M",
+      "gap": "None, exceeds requirement.",
+      "recommendation": "Clearly state the existing coverage in the proposal."
+    },
+    {
+      "requirement": "Contractual Liability insurance",
+      "current_capability": "Not specified.",
+      "gap": "Potentially missing coverage.",
+      "recommendation": "Confirm with insurance provider about contractual liability coverage. Obtain coverage if needed, or clarify if existing general liability covers this."
+    },
+    {
+      "requirement": "Waiver of subrogation against MHMR",
+      "current_capability": "Not specified.",
+      "gap": "Need to include this in insurance policy.",
+      "recommendation": "Work with the insurance provider to add a waiver of subrogation clause to the policy benefiting MHMR."
+    },
+    {
+      "requirement": "Experience with Medical, Caretaker positions",
+      "current_capability": "Healthcare Staffing experience mentioned, but specific roles not explicitly stated.",
+      "gap": "Need to demonstrate experience with the specific positions mentioned in the RFP.",
+      "recommendation": "Highlight relevant experience in the proposal and potentially provide examples of similar roles staffed within healthcare settings.  If lacking direct experience, emphasize transferrable skills and training capabilities."
+    },
+    {
+      "requirement": "Dedicated Project Manager for MHMR account",
+      "current_capability": "Number of account managers specified, but dedicated PM not explicitly mentioned.",
+      "gap": "Need to assign a dedicated Project Manager.",
+      "recommendation": "Assign an existing account manager or designate another suitable employee as the dedicated Project Manager for the MHMR account. Introduce this individual in the proposal."
+    },
+    {
+      "requirement": "HUB/M/W/DBE Utilization (good faith effort)",
+      "current_capability": "HUB and NMSDC Certified",
+      "gap": "Need to demonstrate a good faith effort towards utilizing other specified categories (M/W/DBE) if applicable.",
+      "recommendation": "Complete Attachment A, explaining utilization efforts or providing justification if none.  Highlight existing HUB and NMSDC certifications."
+    },
+    {
+      "requirement": "Texas-specific certifications (Boycotting Israel, Prohibited Business Operations)",
+      "current_capability": "Not mentioned.",
+      "gap": "Need to obtain and submit the required certifications.",
+      "recommendation": "Obtain and include the necessary certifications regarding Boycotting Israel and Prohibited Business Operations in Texas as per Texas Government Code."
+    }
+  ],
+  "summary": "RFQXpert is generally well-positioned to respond to this RFP.  Key gaps exist around insurance specifics (coverage types and clauses) and demonstrating experience with the required staffing categories. Addressing these gaps, providing the requested financial documentation, and ensuring compliance with all Texas-specific requirements will significantly strengthen the proposal."
+}
