@@ -1,12 +1,28 @@
 import logging
 import json
+import os
 from llm_inference.utils.gemini import gemini_client
 
 logger = logging.getLogger(__name__)
 
-COMPLIANCE_PROMPT = """Analyze this RFP for compliance risks: {rfp_text}
+# Correct the path to companydata.json based on your project structure
+# According to the folder structure, it should be in src/llm_inference/data
+with open('src/llm_inference/data/companydata.json', 'r') as f:
+    service_company_data = json.load(f)
 
-Company Profile: {company_profile}
+# If you want to embed it as raw JSON string
+service_company_data_str = json.dumps(service_company_data, indent=2)
+
+with open('RFQXpert/data/processed/rfq.json', 'r') as f:
+    client_rfp_text = json.load(f)
+
+# If you want to embed it as raw JSON string
+client_rfp_text_str = json.dumps(client_rfp_text, indent=2)
+
+COMPLIANCE_PROMPT = """
+RFQXpert provides services to U.S. government agencies. To secure contracts, we must respond to Requests for Proposals (RFPs)—detailed documents outlining project requirements, legal terms, and submission guidelines. Crafting a winning proposal is complex and time-sensitive, requiring extensive legal and compliance checks. These are the details of RFQXpert data:{service_company_data_str}
+
+Analyze this RFP for compliance risks: {client_rfp_text_str}
 
 Identify risks in these categories:
 - Legal/Contractual
@@ -37,7 +53,8 @@ Return JSON format:
     "medium_risk_items": [...],
     "low_risk_items": [...]
   }}
-}}"""
+}}
+"""
 
 def parse_compliance_response(response):
     """
@@ -155,11 +172,10 @@ def validate_risk_item(item):
     if not isinstance(item["likelihood"], int) or not 1 <= item["likelihood"] <= 5:
         raise ValueError("Likelihood must be an integer between 1-5")
 
-async def analyze_risks(rfp_text: str, company_profile: dict) -> dict:
+async def analyze_risks(rfp_text: str) -> dict:
     try:
         prompt = COMPLIANCE_PROMPT.format(
             rfp_text=rfp_text,
-            company_profile=company_profile
         )
         
         response = await gemini_client.generate_content(prompt)

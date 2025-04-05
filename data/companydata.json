@@ -1,0 +1,81 @@
+{
+  "companyProfile": {
+    "name": "RFQXpert",
+    "established": "2020",
+    "type": "Professional Services",
+    "location": "Fort Worth, Texas",
+    "employees": 150,
+    "annualRevenue": "$15M"
+  },
+  "capabilities": {
+    "services": [
+      "Temporary Staffing Services",
+      "Professional Recruitment",
+      "HR Consulting",
+      "Workforce Management"
+    ],
+    "industries": [
+      "Healthcare",
+      "Government",
+      "Technology",
+      "Professional Services"
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "HUB Certified",
+      "NMSDC Certified"
+    ]
+  },
+  "experience": {
+    "yearsInBusiness": 4,
+    "governmentContracts": true,
+    "pastPerformance": [
+      {
+        "client": "Texas Health Resources",
+        "contract": "Healthcare Staffing Services",
+        "value": "$2.5M",
+        "duration": "2 years",
+        "completion": "2023"
+      },
+      {
+        "client": "City of Dallas",
+        "contract": "Administrative Staffing",
+        "value": "$1.8M",
+        "duration": "18 months",
+        "completion": "2024"
+      }
+    ]
+  },
+  "compliance": {
+    "insurance": {
+      "workersComp": "Statutory",
+      "employersLiability": "$1M",
+      "generalLiability": "$2M",
+      "autoLiability": "$1M"
+    },
+    "licenses": [
+      "Texas State Staffing License",
+      "Professional Employer Organization License"
+    ],
+    "backgroundChecks": true,
+    "eVerify": true
+  },
+  "financials": {
+    "creditRating": "A",
+    "debtToEquity": 0.8,
+    "currentRatio": 2.5,
+    "bankReferences": true
+  },
+  "staffing": {
+    "recruiters": 25,
+    "accountManagers": 10,
+    "supportStaff": 15,
+    "activeContractors": 500
+  },
+  "quality": {
+    "fillRate": 95,
+    "retentionRate": 85,
+    "clientSatisfaction": 4.5,
+    "timeToFill": "5 business days"
+  }
+} 

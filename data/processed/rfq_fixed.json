@@ -1,0 +1,148 @@
+{
+  "rfpDetails": {
+    "rfpNumber": "RFP 25-008",
+    "title": "Temporary Staffing Services",
+    "issuer": "MHMR of Tarrant County (\"MHMR\")",
+    "department": "Procurement Services",
+    "address": "3840 Hulen Street, Fort Worth, Texas 76107",
+    "proposalDueDate": "Thursday, February 27, 2025, at 2:00 PM"
+  },
+  "issuerProfile": {
+    "organizationType": "Community center, Local Mental Health Authority (LMHA), Local Behavioral Health Authority (LBHA), Local Intellectual and Developmental Disability Authority (LIDDA), Unit of local government (Texas Health and Safety Code Chapters 533 & 534)",
+    "history": "Founded in 1969",
+    "scope": "Provides mental health and intellectual/developmental disability services in Tarrant County and surrounding areas.",
+    "scale": "Over 100 site locations, serving over 65,000 people annually, with more than 2,000 employees.",
+    "services": [
+      "Mental Health",
+      "Intellectual and Developmental Disabilities",
+      "Addition/Substance Use",
+      "Child and Family Services",
+      "Early Childhood Intervention (ECI)",
+      "Criminal Justice Support",
+      "Veterans Services",
+      "Homelessness Services"
+    ],
+    "certifications": [
+      "Certified Community Behavioral Health Clinic (CCBHC)",
+      "Commission on Accreditation of Rehabilitation Facilities (CARF) accredited"
+    ],
+    "procurementGoal": "Strives for best value, not necessarily the lowest proposal."
+  },
+  "timeline": {
+    "solicitationIssueDate": "Friday, February 7, 2025",
+    "preProposalConferenceDate": "Wednesday, February 12, 2025, at 10:00 AM (Mandatory Attendance)",
+    "preProposalConferenceLocation": "3840 Hulen St. Fort Worth, TX 76107",
+    "questionsDueDate": "Monday, February 17, 2025, by Noon (12:00 PM)",
+    "questionsResponseDate": "Thursday, February 20, 2025, at 4:00 PM",
+    "proposalSubmissionDeadline": "Thursday, February 27, 2025, at 2:00 PM",
+    "proposalOpeningDate": "Thursday, February 27, 2025, at 2:00 PM",
+    "proposalValidity": "Irrevocable offer valid for 120 calendar days after proposal opening.",
+    "anticipatedAwardDate": "Contingent upon Committee and/or Board Approval (approx. 60 days post-deadline)"
+  },
+  "bidderEligibility": {
+    "experience": "Minimum three (3) years of business in Temporary Staffing Services at the time of bid due date.",
+    "preProposalConference": "Mandatory attendance required for all vendors submitting a bid.",
+    "financialStability": "Must demonstrate financial stability (Annual Report, CPA Solvency Letter, etc.).",
+    "compliance": "Must comply with all specified legal, insurance, and procedural requirements."
+  },
+  "scopeOfWork": {
+    "serviceRequested": "Provide temporary employees of indefinite quantities on an as-needed, non-exclusive basis.",
+    "contractType": "Hourly rate based. MHMR may award multiple contracts (non-exclusive). No guarantee of work.",
+    "positions": "Includes categories like Administrative, Medical, Caretaker, Finance, Accounting, Patient Financial Services, Credentialing, IT, and Legal Support Services. Specific positions listed in Proposal Form (Section 11), list not exhaustive.",
+    "placement": "Direct placement on an as-needed basis. Ability to respond quickly to requests.",
+    "tempToHire": "Temps eligible for permanent hire by MHMR after 520 hours at no additional charge."
+  },
+  "specificRequirements": {
+    "candidateQualification": "Pre-qualify candidates based on education, skill-level, professionalism, flexibility, communication.",
+    "workerStandards": "Workers must be >= 18 years old, sober, reliable, clean, appropriately dressed, able to follow instructions.",
+    "backgroundChecks": "Contractor must conduct background checks; MHMR reserves right to conduct additional checks or request copies.",
+    "prohibitions": "No firearms, weapons, drugs, or alcohol allowed on MHMR premises by temporary employees.",
+    "timesheets": "Provide timesheets, completed weekly, approved by MHMR supervisor, attached to invoices.",
+    "invoicing": "Separate invoices per employee; include correct rates, position, start/end dates. Invoice weekly, bi-weekly, or monthly. Payment terms Net 30 minimum.",
+    "pricing": "Provide Hourly Rate paid to temp, Billing Percentage, and Billed Hourly Rate. Decreases in pay rate must lower bill rate; increases in pay rate do not increase the proposed bill rate.",
+    "projectManagement": "Assign a dedicated Project Manager for MHMR account.",
+    "safety": "Contractor responsible for safety, injury, and health of its personnel on MHMR property.",
+    "keys": "Return all keys upon assignment completion; Contractor bears cost of re-keying if keys are lost/not returned.",
+    "mileageParking": "MHMR will not reimburse mileage or parking."
+  },
+  "complianceRequirements": {
+    "legal": "Comply with all State, Federal, Local Laws (incl. ADA, Title VII, ADEA, CRA 1991).",
+    "payrollTaxes": "Contractor responsible for payroll, deductions, taxes, insurance, wages, benefits for its employees.",
+    "immigration": "Comply with Immigration Reform and Control Act of 1986. Use E-Verify if required by funding source.",
+    "nonDiscrimination": "Adhere to MHMR's non-discrimination policy.",
+    "hubMwDbe": "Make good faith effort to utilize HUBs and M/W/DBEs (submit certificates or Attachment A).",
+    "assignment": "No direct or indirect assignment of contract without MHMR approval.",
+    "licensure": "Provide copies of relevant licenses, certifications, permits.",
+    "texasSpecific": [
+      "Texas Public Information Act compliance.",
+      "No Boycotting Israel certification (TX Gov Code).",
+      "No Prohibited Business Operations certification (Sudan, Iran, Terrorist Orgs - TX Gov Code)."
+    ],
+    "insurance": {
+      "submission": "Proof of insurance (current COI) MUST be submitted WITH the proposal.",
+      "uponAward": "Provide COI naming MHMR, its officers, employees, and elected representatives as additional insured.",
+      "notice": "30-day written notice prior to termination or material alteration of policy.",
+      "limits": {
+        "workersComp": "Statutory",
+        "employersLiability": "$500,000",
+        "cgl_occurrence": "$1,000,000 (Bodily/Personal Injury)",
+        "cgl_aggregate": "$2,000,000 (Bodily/Personal Injury), $1,000,000 (Property Damage)",
+        "autoLiability": "$500,000 minimum combined single limit (Bodily Injury)",
+        "contractualLiability": "Same limits as above"
+      },
+      "provisions": "Waiver of subrogation against MHMR. Ensure subcontractors meet requirements."
+    },
+    "indemnification": "Contractor must indemnify and hold harmless MHMR from suits, actions, claims, costs arising from contractor's negligence or wrongful acts."
+  },
+  "proposalSubmission": {
+    "format": "8.5x11, bound/stapled/binder, Table of Contents, numbered pages, tabbed sections.",
+    "copies": "Original signed proposal AND one electronic copy (Flash Drive).",
+    "delivery": "Mail or hand-deliver in a sealed envelope.",
+    "address": "MHMR Procurement Services, Attn: Randall Elder, 3840 Hulen Street, Suite 538, Fort Worth, TX 76107",
+    "deadline": "Must be received by February 27, 2025, 2:00 PM.",
+    "envelopeMarking": "RFP 25-008 TEMPORARY SERVICES DO NOT OPEN UNTIL THURSDAY, FEBRUARY 27, 2025, AT 2:00 P.M.",
+    "signing": "Must be signed in ink by an authorized representative. Unsigned proposals are rejected.",
+    "lateProposals": "Will not be accepted."
+  },
+  "evaluationCriteria": {
+    "totalPoints": 100,
+    "criteria": [
+      {
+        "category": "A. Responsiveness to the RFP",
+        "points": 10,
+        "details": "Completeness, thoroughness, understanding of project, technical aspects."
+      },
+      {
+        "category": "B. Qualifications, Experience and Past Performances",
+        "points": 40,
+        "details": "Similar work history, references, org chart/resumes, industry knowledge, employee vs. sub ratio, staff retention."
+      },
+      {
+        "category": "C. Compatibility of Staffing Plan with MHMR Specifications",
+        "points": 15,
+        "details": "Reliability, consistency, management/supervision plan, scope understanding, methodology."
+      },
+      {
+        "category": "D. Price",
+        "points": 15
+      },
+      {
+        "category": "E. Equipment and Materials",
+        "points": "Not explicitly assigned points, but total must reach 100 (Note: Points listed A-D sum to 80)."
+      }
+    ],
+    "process": "Evaluation based on submitted proposal. MHMR may request oral presentations or a Best and Final Offer (BAFO)."
+  },
+  "requiredForms": [
+    "Tabbed Proposal Sections (Cover Letter, Exec Summary, Company Info, Financials, References/Attachments, Scope, Literature, Pricing)",
+    "Proposal Form (Pricing Table - Section 11 / Tab 8)",
+    "Acknowledgement Form (Section 11 / Tab 8)",
+    "Attachment A: HUB/DBE Utilization Assessment (If applicable, or indicate None)",
+    "Attachment C: Deviation Form (MUST be signed and submitted, even if no deviations)",
+    "Attachment D: Non-Collusion Affidavit (MUST be completed, notarized, and submitted)",
+    "Attachment E: Reference Form (Minimum 3 references)",
+    "Form W-9",
+    "Current Certificate of Insurance (COI)"
+  ],
+  "notes": "Vendors who do not intend to bid should submit Attachment B - Notice 'No Bid' Form."
+} 
