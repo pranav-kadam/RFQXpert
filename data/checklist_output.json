@@ -1,117 +1,117 @@
 {
   "requirements_checklist": [
     {
-      "requirement": "Mandatory attendance required for all vendors submitting a bid at Pre-Proposal Conference.",
-      "status": false,
-      "explanation": "Attendance is unknown, therefore, the requirement is not confirmed as met."
-    },
-    {
-      "requirement": "Minimum three (3) years of business in Temporary Staffing Services at the time of bid due date.",
+      "requirement": "Minimum three (3) years of business in Temporary Staffing Services",
       "status": true,
-      "explanation": "RFQXpert established in 2020 and the RFP is due in 2025, fulfilling the 3-year requirement."
+      "explanation": "RFQXpert established in 2020, and the RFP due date is in 2025, indicating 5 years in business."
     },
     {
-      "requirement": "Must demonstrate financial stability (Annual Report, CPA Solvency Letter, etc.).",
+      "requirement": "Demonstrate financial stability",
       "status": true,
-      "explanation": "RFQXpert has a credit rating of 'A', a debt-to-equity ratio of 0.8, a current ratio of 2.5, and bank references, indicating financial stability."
+      "explanation": "RFQXpert has a credit rating of 'A', debt-to-equity of 0.8, and a current ratio of 2.5, indicating strong financial stability."
     },
     {
-      "requirement": "Must comply with all specified legal requirements.",
+      "requirement": "Comply with all specified legal requirements",
       "status": true,
-      "explanation": "RFQXpert has licenses, E-Verify, and conducts background checks, suggesting compliance with legal requirements."
+      "explanation": "RFQXpert has licenses, E-Verify, and background checks in place, suggesting compliance with legal requirements."
     },
     {
-      "requirement": "Provide temporary employees of indefinite quantities on an as-needed, non-exclusive basis.",
+      "requirement": "Provide temporary employees of indefinite quantities on an as-needed, non-exclusive basis",
       "status": true,
-      "explanation": "RFQXpert provides temporary staffing services."
+      "explanation": "RFQXpert provides temporary staffing services, fulfilling this requirement."
     },
     {
-      "requirement": "Workers must be >= 18 years old, sober, reliable, clean, appropriately dressed, able to follow instructions.",
+      "requirement": "Workers must be >= 18 years old, sober, reliable, clean, appropriately dressed, able to follow instructions",
       "status": true,
-      "explanation": "Assumed to be part of RFQXpert's Standard Operating Procedures."
+      "explanation": "This is assumed to be part of RFQXpert's Standard Operating Procedures for staffing."
     },
     {
-      "requirement": "Contractor must conduct background checks.",
+      "requirement": "Contractor must conduct background checks",
       "status": true,
       "explanation": "RFQXpert conducts background checks."
     },
     {
-      "requirement": "Return all keys upon assignment completion; Contractor bears cost of re-keying if keys are lost/not returned.",
+      "requirement": "Return all keys upon assignment completion; Contractor bears cost of re-keying if keys are lost/not returned",
       "status": true,
-      "explanation": "Presumed to be part of RFQXpert's standard procedures and can be implemented."
+      "explanation": "This is presumed to be part of RFQXpert's standard procedures and can be implemented."
     },
     {
-      "requirement": "Comply with all State, Federal, Local Laws (incl. ADA, Title VII, ADEA, CRA 1991).",
+      "requirement": "Comply with all State, Federal, Local Laws (incl. ADA, Title VII, ADEA, CRA 1991)",
       "status": true,
-      "explanation": "RFQXpert presumed to comply."
+      "explanation": "RFQXpert is presumed to comply with these laws."
     },
     {
-      "requirement": "Contractor responsible for payroll, deductions, taxes, insurance, wages, benefits for its employees.",
+      "requirement": "Contractor responsible for payroll, deductions, taxes, insurance, wages, benefits for its employees",
       "status": true,
-      "explanation": "RFQXpert presumed to be compliant with this since they provide staffing services."
+      "explanation": "RFQXpert is presumed to be compliant with this since they provide staffing services."
     },
     {
-      "requirement": "Comply with Immigration Reform and Control Act of 1986. Use E-Verify if required by funding source.",
+      "requirement": "Comply with Immigration Reform and Control Act of 1986. Use E-Verify if required by funding source",
       "status": true,
       "explanation": "RFQXpert uses E-Verify."
     },
     {
-      "requirement": "Adhere to MHMR's non-discrimination policy.",
+      "requirement": "Adhere to MHMR's non-discrimination policy",
       "status": true,
-      "explanation": "RFQXpert presumed to adhere."
+      "explanation": "RFQXpert is presumed to adhere."
     },
     {
-      "requirement": "Texas Public Information Act compliance.",
-      "status": true,
-      "explanation": "Presumed. Requires legal and compliance review to confirm."
+      "requirement": "Texas Public Information Act compliance",
+      "status": false,
+      "explanation": "Compliance needs to be confirmed by Legal and compliance review."
     },
     {
-      "requirement": "No Boycotting Israel certification (TX Gov Code).",
-      "status": true,
-      "explanation": "Presumed. Requires legal and compliance review to confirm."
+      "requirement": "No Boycotting Israel certification (TX Gov Code)",
+      "status": false,
+      "explanation": "Certification needs to be confirmed by Legal and compliance review."
     },
     {
-      "requirement": "No Prohibited Business Operations certification (Sudan, Iran, Terrorist Orgs - TX Gov Code).",
-      "status": true,
-      "explanation": "Presumed. Requires legal and compliance review to confirm."
+      "requirement": "No Prohibited Business Operations certification (Sudan, Iran, Terrorist Orgs - TX Gov Code)",
+      "status": false,
+      "explanation": "Certification needs to be confirmed by Legal and compliance review."
     },
     {
-      "requirement": "Contractor must indemnify and hold harmless MHMR from suits, actions, claims, costs arising from contractor's negligence or wrongful acts.",
-      "status": true,
-      "explanation": "Assumed to be included in contract agreement. Legal review needed to confirm."
+      "requirement": "Contractor must indemnify and hold harmless MHMR from suits, actions, claims, costs arising from contractor's negligence or wrongful acts",
+      "status": false,
+      "explanation": "Needs to be confirmed by Legal if this clause will be included in contract agreement."
     },
     {
-      "requirement": "Submission format, copies, delivery, address, deadline, envelope marking, signing, late proposals.",
+      "requirement": "Submission format, copies, delivery, address, deadline, envelope marking, signing, late proposals",
       "status": true,
       "explanation": "These are procedural and can be followed."
     },
     {
-      "requirement": "BackgroundChecks requirement mentioned in SpecificRequirements is met.",
+      "requirement": "BackgroundChecks requirement mentioned in SpecificRequirements is met",
       "status": true,
-      "explanation": "Background checks requirement mentioned in SpecificRequirements is met."
+      "explanation": "BackgroundChecks requirement is met."
     },
     {
-      "requirement": "Ability to respond quickly to requests.",
+      "requirement": "Ability to respond quickly to requests",
       "status": true,
       "explanation": "Presumed. Based on staffing and expertise."
     },
     {
-      "requirement": "Provide timesheets, completed weekly, approved by MHMR supervisor, attached to invoices.",
+      "requirement": "Provide timesheets, completed weekly, approved by MHMR supervisor, attached to invoices",
       "status": true,
       "explanation": "Timesheet procedures can be implemented by the company."
     },
     {
-      "requirement": "Invoicing: Separate invoices per employee; include correct rates, position, start/end dates. Invoice weekly, bi-weekly, or monthly. Payment terms Net 30 minimum.",
+      "requirement": "Invoicing: Separate invoices per employee; include correct rates, position, start/end dates. Invoice weekly, bi-weekly, or monthly. Payment terms Net 30 minimum",
       "status": true,
       "explanation": "Invoicing procedures can be implemented by the company."
     },
     {
-      "requirement": "Proof of insurance (current COI) MUST be submitted WITH the proposal.",
+      "requirement": "Mandatory attendance required for all vendors submitting a bid at Pre-Proposal Conference",
       "status": false,
-      "explanation": "Employers Liability and Auto Liability insurance limits are less than the minimum required in the RFP."
+      "explanation": "Attendance is unknown."
     },
     {
-      "requirement": "Provide COI naming MHMR, its officers, employees, and elected representatives as additional insured.",
+      "requirement": "Proof of insurance (current COI) MUST be submitted WITH the proposal",
+      "status": false,
+      "explanation": "Employer's Liability and Auto Liability insurance limits are less than minimum required in RFP"
+    },
+    {
+      "requirement": "Provide COI naming MHMR, its officers, employees, and elected representatives as additional insured",
       "status": false,
       "explanation": "Currently does not, COI will need to be updated."
     },
@@ -121,14 +121,14 @@
       "explanation": "Requires either HUB/DBE certification or demonstrating 'good faith' effort."
     },
     {
-      "requirement": "Assign a dedicated Project Manager for MHMR account.",
+      "requirement": "Assign a dedicated Project Manager for MHMR account",
       "status": false,
-      "explanation": "Company data does not indicate a dedicated PM, but one could be assigned."
+      "explanation": "Company data does not indicate dedicated PM, but could be assigned"
     },
     {
-      "requirement": "Provide copies of relevant licenses, certifications, permits.",
+      "requirement": "Provide copies of relevant licenses, certifications, permits",
       "status": false,
-      "explanation": "RFQXpert has licenses and certifications but proof of copies not mentioned"
+      "explanation": "RFQXpert has licenses and certifications but proof of copies not mentioned."
     },
     {
       "requirement": "Information Technology Audit Services",
@@ -138,123 +138,149 @@
     {
       "requirement": "Experience in school district information technology audits",
       "status": false,
-      "explanation": "RFKXpert has Government contracts experience, but no explicit mention of IT audits or school districts"
+      "explanation": "Government contracts experience, but primarily in administrative staffing."
     },
     {
-      "requirement": "Provide references from other school districts with IT audit experience",
+      "requirement": "References from other school districts with IT audit experience",
       "status": false,
-      "explanation": "RFKXpert has References available, but not specifically for school districts or IT audits."
+      "explanation": "References from healthcare and city government clients for staffing services."
     },
     {
-      "requirement": "Sample technology audit report",
+      "requirement": "Sample technology audit report from a previous client",
       "status": false,
-      "explanation": "RFKXpert has past performance reports likely available, but not a specific technology audit report."
+      "explanation": "Past performance reports focused on staffing services."
+    },
+    {
+      "requirement": "Detailed description of audit process and methodology",
+      "status": false,
+      "explanation": "Expertise in staffing and HR processes."
     }
   ],
   "compliance_status": {
-    "summary": "RFQXpert meets a majority of the basic requirements for the RFP, but several critical compliance gaps need to be addressed to be eligible and competitive. Major gaps exist around insurance coverage, HUB/DBE assessment, documentation submission, attendance at the pre-proposal conference, and IT audit services.",
-    "compliance_percentage": "68%",
+    "summary": "RFQXpert currently meets a moderate percentage of the RFP requirements but has significant gaps, particularly related to insurance coverage, providing a COI naming MHMR, HUB/DBE utilization, attendance at the pre-proposal conference, and IT audit capabilities. Legal review is also needed to confirm compliance with certain Texas specific documents. Based on the compliance check, the requirements are not fully met, so significant effort is needed to be fully compliant. Meeting requirements for IT audit would require more than compliance, so this is a significant gap.",
+    "compliance_percentage": "56.7%",
     "major_gaps": [
-      "Lack of attendance confirmation at Mandatory Pre-Proposal Conference",
-      "Insufficient Insurance Coverage (Employer's Liability and Auto Liability)",
-      "Missing COI naming MHMR as Additional Insured",
+      "Lack of IT Audit Services experience and capability",
+      "Insufficient insurance coverage (Employer's Liability and Auto Liability)",
+      "Missing COI naming MHMR as additional insured",
       "Lack of HUB/DBE Utilization Assessment",
-      "Missing copies of licenses, certifications and permits",
-      "Lack of IT Audit experience"
+      "Unknown attendance at Mandatory Pre-Proposal Conference",
+      "Missing Copies of licenses and certifications",
+      "Need Legal/Compliance review of Texas specific documents"
     ]
   },
   "recommendations": [
     {
-      "priority": "High",
-      "recommendation": "Immediately confirm attendance at the Mandatory Pre-Proposal Conference or determine if alternative arrangements can be made.",
-      "related_gap": "Lack of attendance confirmation at Mandatory Pre-Proposal Conference"
+      "priority": "Critical",
+      "recommendation": "Immediately confirm attendance at the Mandatory Pre-Proposal Conference. If not attended, assess whether participation is still possible or if the RFP is no longer viable.",
+      "related_gap": "Mandatory Pre-Proposal Conference Attendance"
     },
     {
-      "priority": "High",
-      "recommendation": "Increase Employers Liability and Auto Liability insurance coverage to meet the RFP's minimum requirements. Obtain a Certificate of Insurance (COI) that specifically names MHMR, its officers, employees, and elected representatives as additional insured.",
-      "related_gap": "Insufficient Insurance Coverage (Employer's Liability and Auto Liability), Missing COI naming MHMR as Additional Insured"
+      "priority": "Critical",
+      "recommendation": "Increase Employers Liability and Auto Liability insurance coverage to meet or exceed the RFP requirements (minimum $500K for each).  Contact insurance provider to expedite the process.",
+      "related_gap": "Insufficient Insurance Coverage"
     },
     {
-      "priority": "High",
-      "recommendation": "Complete the HUB/DBE Utilization Assessment, documenting either HUB/DBE participation or demonstrating good faith efforts to include them. Document all efforts made.",
+      "priority": "Critical",
+      "recommendation": "Obtain a Certificate of Insurance (COI) that specifically names MHMR of Tarrant County, its officers, employees, and elected representatives as additional insured. Ensure the policy meets all of MHMR's minimum requirements.",
+      "related_gap": "Missing COI Naming MHMR"
+    },
+    {
+      "priority": "Critical",
+      "recommendation": "Complete the HUB/DBE Utilization Assessment (Attachment A), documenting either HUB/DBE participation or a demonstration of good faith efforts to include them. Review the specific MBE/WBE certifications required by the RFP and pursue them if necessary.",
       "related_gap": "Lack of HUB/DBE Utilization Assessment"
     },
     {
       "priority": "High",
-      "recommendation": "Gather copies of all relevant licenses, certifications, and permits to submit with the proposal. Verify licenses and certifications are valid and up to date.",
-      "related_gap": "Missing copies of licenses, certifications and permits"
+      "recommendation": "Gather copies of all relevant licenses, certifications, and permits to submit with the proposal.  Ensure these documents are current and readily available.",
+      "related_gap": "Missing Copies of Licenses and Certifications"
     },
     {
       "priority": "High",
-      "recommendation": "Partner with an IT auditing firm or acquire an IT auditing company to fulfill this requirement. Alternatively, RFKXpert could develop internal IT auditing expertise through training and hiring specialized personnel. Subcontracting the IT specific portions of the audit is another viable option.  Highlight any transferable skills and experience from related projects. Emphasize experience with government entities and any experience with technology-related projects.   If partnering or subcontracting, leverage the partner's experience in this area.  If partnering or subcontracting, use the partner's school district references. If developing internal capabilities, pursue smaller IT audit projects with school districts to build a track record and generate relevant references. If partnering, use a sample report from the partner.  If developing capabilities internally, create a mock report demonstrating the proposed methodology and reporting format.",
-      "related_gap": "Lack of IT Audit experience"
+      "recommendation": "Assign a dedicated Project Manager for the MHMR account and ensure their availability to fulfill the contract requirements. Communicate this assignment in the proposal.",
+      "related_gap": "Lack of Assigned Project Manager"
+    },
+    {
+      "priority": "High",
+      "recommendation": "Since RFQXpert primarily offers staffing and HR services, partner with an IT auditing firm or acquire an IT auditing company to fulfill this requirement. If not possible, develop internal IT auditing expertise through training and hiring specialized personnel.",
+      "related_gap": "Lack of IT Audit Services capability"
     },
     {
       "priority": "Medium",
-      "recommendation": "Assign a dedicated Project Manager for the MHMR account and ensure their availability to fulfill the contract requirements. Designate a primary point of contact for SRMT communications. Implement a system for tracking and managing action items. Schedule regular meetings with SRMT representatives to maintain open communication and address any concerns promptly.",
-      "related_gap": "Lack of dedicated Project Manager"
+      "recommendation": "Instruct legal and compliance team to review contracts and procedures to assure compliance with Texas Public Information Act compliance, No Boycotting Israel certification, No Prohibited Business Operations certification, and Indemnification/Hold Harmless clause.",
+      "related_gap": "Need Legal/Compliance review of Texas specific documents"
     },
     {
       "priority": "Medium",
-      "recommendation": "Establish clear communication protocols and response times within the project team.",
-      "related_gap": "Ability to respond quickly to requests"
+      "recommendation": "Contact the Hazelwood School District via the official question submission process to clarify whether the 'Code Integrity Warranty' is relevant to the scope of the services being delivered.",
+      "related_gap": "Technical - Code Integrity Warranty"
     },
     {
       "priority": "Low",
-      "recommendation": "Implement a comprehensive training plan for the SRMT program staff, with clear objectives, materials, and evaluation methods, to avoid risks in underestimating the training effort or ongoing support.",
-      "related_gap": "The RFP requires training for Tribal program staff to maintain websites."
+      "recommendation": "Ensure all required E-Verify documentation is readily available and submitted accurately with the proposal.",
+      "related_gap": "E-Verify compliance"
     },
     {
-      "priority": "High",
-      "recommendation": "Proactively verify RFQXpert's good standing in the SAM database and with the Department of Health & Human Services/Office of Inspector General. Implement internal controls to ensure ongoing compliance with these requirements. Maintain accurate records of compliance activities.",
-      "related_gap": "SRMT Corporate Compliance Policy involves screening against the Department of Health & Human Services/Office of Inspector General and The System for Award Management (SAM) exclusion database."
-    },
-    {
-      "priority": "Medium",
-      "recommendation": "Verify that the team assigned to the project has expertise in Craft CMS 3. Highlight relevant experience and certifications in the proposal. Provide examples of successful projects using Craft CMS 3. If internal expertise is limited, consider partnering with a subcontractor who specializes in Craft CMS 3.",
-      "related_gap": "The SRMT currently uses Craft CMS 3, and the proposer must demonstrate knowledge and use of this CMS."
-    },
-    {
-      "priority": "High",
-      "recommendation": "Engage legal counsel to confirm compliance with Texas Public Information Act, No Boycotting Israel certification, No Prohibited Business Operations certification, and contract indemnification clauses.",
-      "related_gap": "Texas Public Information Act compliance, No Boycotting Israel certification, No Prohibited Business Operations certification, Contract Indemnification"
+      "priority": "Low",
+      "recommendation": "Ensure that the proposal excludes Federal Excise Tax, Transportation Tax, or State Retail Sales Tax as directed.",
+      "related_gap": "Tax Exemption"
     }
   ],
   "plan_of_action": [
     {
       "step": 1,
-      "description": "Confirm Attendance at Pre-Proposal Conference or alternative arrangements.",
-      "timeline": "Immediate"
+      "description": "Verify attendance at Mandatory Pre-Proposal Conference",
+      "timeline": "Immediately"
     },
     {
       "step": 2,
-      "description": "Contact insurance provider to increase Employers Liability and Auto Liability coverage and obtain an updated COI naming MHMR as an additional insured.",
+      "description": "Contact insurance provider to increase Employers Liability and Auto Liability insurance coverage to meet the $500K minimum requirement.",
       "timeline": "Within 2 days"
     },
     {
       "step": 3,
-      "description": "Complete the HUB/DBE Utilization Assessment. If not HUB/DBE certified, start documenting 'good faith' efforts and ensure appropriate parties sign the form.",
-      "timeline": "Within 3 days"
+      "description": "Request updated Certificate of Insurance (COI) naming MHMR of Tarrant County, its officers, employees, and elected representatives as additional insured.",
+      "timeline": "Within 2 days"
     },
     {
       "step": 4,
-      "description": "Gather copies of all relevant licenses, certifications, and permits. Verify they are valid and up-to-date.",
-      "timeline": "Within 1 day"
+      "description": "Complete the HUB/DBE Utilization Assessment (Attachment A), documenting either HUB/DBE participation or a demonstration of good faith efforts to include them.",
+      "timeline": "Within 3 days"
     },
     {
       "step": 5,
-      "description": "Assign a dedicated Project Manager for the MHMR account.",
-      "timeline": "Within 1 day"
+      "description": "Gather copies of all relevant licenses, certifications, and permits to submit with the proposal.",
+      "timeline": "Within 3 days"
     },
     {
       "step": 6,
-      "description": "Evaluate IT audit needs. Partner with IT auditing firm or acquire an IT auditing company to fulfill this requirement. Alternatively, RFKXpert could develop internal IT auditing expertise through training and hiring specialized personnel. Subcontracting the IT specific portions of the audit is another viable option",
-      "timeline": "Within 7 Days"
+      "description": "Assign a dedicated Project Manager for the MHMR account and ensure their availability to fulfill the contract requirements.",
+      "timeline": "Within 3 days"
     },
     {
       "step": 7,
-      "description": "Engage Legal counsel to review and confirm Texas specific forms (Public Information, Anti-Boycott Israel and Business Operations Certifications).",
-      "timeline": "Within 3 days"
+      "description": "Decide whether to partner with an IT auditing firm or acquire an IT auditing company to fulfill this requirement. If not possible, develop internal IT auditing expertise through training and hiring specialized personnel.",
+      "timeline": "Within 5 days"
+    },
+    {
+      "step": 8,
+      "description": "Instruct legal and compliance team to review contracts and procedures to assure compliance with Texas Public Information Act compliance, No Boycotting Israel certification, No Prohibited Business Operations certification, and Indemnification/Hold Harmless clause.",
+      "timeline": "Within 7 days"
+    },
+    {
+      "step": 9,
+      "description": "Contact the Hazelwood School District via the official question submission process to clarify whether the 'Code Integrity Warranty' is relevant to the scope of the services being delivered.",
+      "timeline": "Within 5 days"
+    },
+    {
+      "step": 10,
+      "description": "Ensure all required E-Verify documentation is readily available and submitted accurately with the proposal.",
+      "timeline": "Within 1 day of proposal submission"
+    },
+    {
+      "step": 11,
+      "description": "Ensure that the proposal excludes Federal Excise Tax, Transportation Tax, or State Retail Sales Tax as directed.",
+      "timeline": "Before proposal submission"
     }
   ]
 }

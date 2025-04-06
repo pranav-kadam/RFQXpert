@@ -1,35 +1,41 @@
 {
   "gaps": [
     {
-      "requirement": "Website Development & Maintenance",
+      "requirement": "Information Technology Audit Services",
       "current_capability": "Temporary Staffing Services, Professional Recruitment, HR Consulting, Workforce Management",
-      "gap": "RFKXpert primarily offers staffing and HR services, not website development or maintenance.",
-      "recommendation": "RFKXpert needs to partner with a firm specializing in website development and maintenance, or acquire the necessary expertise in-house. This could involve hiring web developers, designers, and cloud infrastructure specialists.  Consider focusing on Craft CMS expertise given the RFP's specific requirement."
+      "gap": "RFKXpert does not offer IT Audit services; their expertise lies in staffing and HR.",
+      "recommendation": "Partner with an IT auditing firm or acquire an IT auditing company. Alternatively, quickly develop in-house IT auditing expertise through targeted hires and training."
     },
     {
-      "requirement": "Hosting and Cloud Infrastructure Services",
-      "current_capability": "None specified",
-      "gap": "RFKXpert does not list hosting and cloud infrastructure services among its capabilities.",
-      "recommendation": "Partner with a cloud hosting provider or develop internal cloud infrastructure management capabilities. This partnership would need to address the RFP's requirements for content management system integration, security, and user experience."
+      "requirement": "Experience in school district information technology audits",
+      "current_capability": "Experience in Healthcare and Government Staffing",
+      "gap": "While RFKXpert has government contract experience, it lacks specific experience with school district IT audits.",
+      "recommendation": "Highlight transferable skills from government experience and emphasize the company's commitment to quickly gaining school district IT audit expertise. Partnering with a firm that has this experience could also bridge this gap."
     },
     {
-      "requirement": "Craft Content Management System (CMS) experience (specifically Craft CMS 3)",
-      "current_capability": "None specified",
-      "gap": "No mention of CMS experience, let alone Craft CMS 3, within RFKXpert's capabilities.",
-      "recommendation": "Quickly acquire Craft CMS 3 expertise.  This is crucial. Target professionals with experience in this specific CMS.  Highlight this newly acquired skillset prominently in the proposal."
+      "requirement": "References from other School Districts for IT audits",
+      "current_capability": "References from Texas Health Resources and City of Dallas for staffing services",
+      "gap": "RFKXpert's current references are not relevant to IT auditing or school districts.",
+      "recommendation": "If partnering, leverage the partner's school district references.  If developing internal capability, pursue pilot projects with smaller school districts to build relevant experience and references."
     },
     {
-      "requirement": "Training Tribal program staff on website maintenance",
-      "current_capability": "HR Consulting and Workforce Management, which might encompass some training aspects, but not specifically for website content management.",
-      "gap": "While RFKXpert has a training element within its HR services, it's not directly applicable to the highly specific technical training required by the RFP.",
-      "recommendation": "Develop a tailored training program specific to Craft CMS 3 and website maintenance. This will likely require collaboration with the website development partner or newly hired internal experts."
+      "requirement": "Sample technology audit report",
+      "current_capability": "No sample IT audit report available",
+      "gap": "RFKXpert cannot provide a sample report showcasing their IT audit methodology.",
+      "recommendation": "If partnering, use the partner's sample report (with permission).  If developing internal capability, develop a mock report based on publicly available information or industry best practices."
     },
     {
-      "requirement": "Post-launch website maintenance and improvement plan",
-      "current_capability": "None specified",
-      "gap": "RFKXpert doesn't typically offer post-project maintenance and improvement planning for web development, as it is not their core service offering.",
-      "recommendation": "Develop a comprehensive and transparent post-launch support and maintenance plan, including regular updates, security patching, and future feature enhancements. This plan should align with the long-term website strategy of the SRMT."
+      "requirement": "Detailed description of audit process and methodology",
+      "current_capability": "Expertise in staffing and HR processes",
+      "gap": "RFKXpert's documented processes are not related to IT auditing.",
+      "recommendation": "Develop a clear and detailed IT audit methodology, potentially adapting frameworks from reputable sources like NIST.  If partnering, clearly articulate how the combined methodologies will be applied."
+    },
+    {
+      "requirement": "MBE/WBE participation (potentially)",
+      "current_capability": "HUB Certified, NMSDC Certified",
+      "gap": "While RFKXpert holds some certifications, the specific MBE/WBE requirements of the Hazelwood School District might differ and need to be addressed.  The RFP states they *may* reject proposals not meeting goals.",
+      "recommendation": "Carefully review the Hazelwood School District's MBE/WBE requirements and determine compliance status.  If needed, explore partnerships with certified MBE/WBE firms or implement a strategy to increase MBE/WBE participation within RFKXpert."
     }
   ],
-  "summary": "RFKXpert faces significant gaps in meeting the technical requirements of this RFP. Their core competencies lie in staffing and HR solutions, not website development and maintenance. To submit a competitive proposal, RFKXpert needs to establish strategic partnerships with experienced web development and cloud hosting firms or rapidly acquire the necessary in-house talent.  Special attention must be given to acquiring Craft CMS 3 expertise. Addressing these gaps swiftly and decisively is critical for success."
+  "summary": "RFKXpert faces significant gaps in meeting the RFP requirements for IT auditing services.  Their core capabilities are focused on staffing and HR, not technical audits.  Partnering with an experienced IT audit firm appears to be the most viable short-term solution to address the majority of these gaps.  If RFKXpert chooses to develop in-house expertise, a significant investment in training, hiring, and process development will be required, along with a strategic plan to gain relevant experience and references."
 }

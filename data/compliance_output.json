@@ -1,80 +1,73 @@
 {
   "risk_assessment": {
-    "overall_risk_score": 3.1,
+    "overall_risk_score": 3.0,
     "high_risk_items": [
       {
         "category": "Legal/Contractual",
-        "severity": 4,
-        "likelihood": 4,
-        "description": "The RFP includes a Native American Preference Policy. RFQXpert is not Native American owned. Winning the bid will be challenging unless RFQXpert subcontracts with a Native American business. If RFQXpert were to fraudulently claim Native American status, it would be a severe legal violation.",
-        "mitigation": "Do not falsely claim Native American preference. Explore partnership or subcontracting opportunities with certified Native American businesses to fulfill preference requirements. Disclose all subcontracting arrangements. Thoroughly review the Native American Preference Policy and SRMT General Contract Terms and Conditions."
-      },
-      {
-        "category": "Legal/Contractual",
         "severity": 5,
-        "likelihood": 2,
-        "description": "The SRMT Corporate Compliance Policy states that successful proposers will be screened against the Department of Health & Human Services/Office of Inspector General and The System for Award Management (SAM) exclusion database. Any findings will cause the proposal to be non-responsive or will lead to contract termination if discovered after the award. RFQXpert must maintain its SAM.gov registration to avoid being excluded from eligibility for federal funds",
-        "mitigation": "Ensure RFQXpert maintains an active and compliant SAM.gov registration. Regularly check the company's status in SAM.gov and address any issues immediately. Conduct internal audits to proactively identify and resolve any potential compliance issues."
+        "likelihood": 3,
+        "description": "One-sided Contract Terms: The RFP contains several clauses that heavily favor the Hazelwood School District, such as the right to reject any proposal for any reason without liability, the right to negotiate final contract terms with any company regardless of interview status, and the district's ability to resolve inconsistencies in favor of the RFP. This creates a risk of unfavorable contract terms for RFQXpert.",
+        "mitigation": "Carefully review all contract terms and conditions. Attempt to negotiate more favorable terms with the District, focusing on clauses that create significant risk. Quantify potential financial impacts of unfavorable terms during the negotiation process. Clearly define the scope of work in the proposal to minimize potential inconsistencies."
       },
       {
         "category": "Legal/Contractual",
         "severity": 4,
-        "likelihood": 3,
-        "description": "The RFP includes numerous certifications (Lobbying, Debarment, Drug-Free Workplace, Trafficking in Persons, Anti-Collusion). Failure to comply with these certifications could lead to legal repercussions and contract termination.",
-        "mitigation": "Thoroughly review all certifications and ensure RFQXpert meets the requirements. Implement internal policies and procedures to maintain compliance. Obtain legal counsel to review certifications and compliance procedures."
-      },
-      {
-        "category": "Financial",
-        "severity": 3,
         "likelihood": 4,
-        "description": "The RFP requests a firm fixed pricing structure with Net 30 payment terms. If RFQXpert underestimates the project costs, or is slow in providing deliverables it may be at risk of delivering services for less profit than expected. There is also a risk of non-payment from SRMT. The Tribal Government is tax exempt.",
-        "mitigation": "Conduct a comprehensive cost analysis, factoring in all potential expenses. Negotiate favorable payment terms and establish clear milestones for payment. Ensure proper invoicing procedures and maintain open communication with SRMT regarding payment schedules. Understand implications of the tribal government being tax exempt."
-      },
-      {
-        "category": "Operational",
-        "severity": 4,
-        "likelihood": 3,
-        "description": "The RFP requires training for Tribal program staff to maintain websites without specialized technical knowledge. This requires adequate training documentation to be provided, and the staff need to be trained to a minimum level to successfully maintain the website.",
-        "mitigation": "Allocate sufficient resources for training. Develop a comprehensive training program with clear documentation. Provide ongoing support to tribal staff to ensure successful website maintenance. Obtain feedback from tribal staff to improve the training program."
+        "description": "MBE/WBE Participation Requirements: The RFP states specific goals for MBE/WBE participation (25% and 5% respectively) and indicates that proposals not meeting these goals may be rejected. While RFQXpert is HUB and NMSDC certified, this RFP is in Missouri, meaning RFQXpert would still need to meet the standards laid out in the document to meet the requirements. If RFQXpert cannot meet these participation goals either directly or through subcontractors, the proposal's chances of success are significantly diminished.",
+        "mitigation": "Actively seek out and engage potential MBE/WBE subcontractors. Document all efforts to solicit MBE/WBE participation, even if unsuccessful, to demonstrate good faith. If necessary, request clarification from the District regarding flexibility in meeting the participation goals."
       }
     ],
     "medium_risk_items": [
       {
-        "category": "Technical",
+        "category": "Financial",
         "severity": 3,
         "likelihood": 3,
-        "description": "The RFP requires expertise in Craft CMS 3. If RFQXpert lacks sufficient experience or the required skills in Craft CMS 3, project delays or quality issues may arise. The RFQ also asks for ongoing website support. RFQXpert staff may become overwhelmed and may take long to respond to queries.",
-        "mitigation": "Assess RFQXpert's internal expertise in Craft CMS 3. Provide additional training or hire qualified personnel if necessary. Document all development and maintenance processes. Implement an efficient system for responding to inquiries and resolving technical issues. Ensure enough internal staff can provide support."
+        "description": "Fixed Pricing with Potential for Scope Creep: The RFP indicates that services must be furnished at the proposed fees, and no price increases will be permitted during the contract term. However, the scope of work is broadly defined, particularly the clause expecting proposers to indicate any areas where the District's IT could be assessed or improved and to provide pricing for such items. This creates a risk of scope creep, where the District requests additional services beyond the original proposal, without allowing for price adjustments.",
+        "mitigation": "Carefully define the scope of services in the proposal, clearly outlining what is included and excluded. Include a change management process in the proposal to address potential scope changes and associated price adjustments. Conduct thorough due diligence to understand the District's IT environment and identify potential hidden costs."
       },
       {
         "category": "Legal/Contractual",
         "severity": 3,
-        "likelihood": 3,
-        "description": "The SRMT General Contract Terms and Conditions include clauses regarding indemnification, liability, and termination. Understanding the full implications of these clauses is crucial to avoid potential disputes or financial losses.",
-        "mitigation": "Thoroughly review and understand all terms and conditions, particularly those related to indemnification, liability, and termination. Consult with legal counsel to clarify any ambiguous clauses. Negotiate modifications to the contract terms to mitigate potential risks."
+        "likelihood": 2,
+        "description": "Insurance Requirements: The RFP specifies insurance requirements, including Comprehensive General Liability, Workers' Compensation, Employer's Liability, Automotive Liability, and Professional Errors and Omissions insurance. If RFQXpert's current insurance policies do not meet these requirements, obtaining additional coverage could be costly and time-consuming.",
+        "mitigation": "Verify that RFQXpert's current insurance policies meet the specified requirements. If necessary, obtain quotes for additional coverage and factor the cost into the proposal price."
       },
       {
         "category": "Operational",
         "severity": 3,
         "likelihood": 2,
-        "description": "The RFP mentions SRMT having the right to terminate the contract due to not meeting any or all agreement terms, and conditions. Failing to meet these terms will have impact on project completion. ",
-        "mitigation": "Ensure that RFQXpert meet all agreement terms and conditions, and will work towards project completion with high service quality. Follow all SRMT instructions in project deployment and consult legal counsel for advice."
+        "description": "Tight Deadlines and Page Limits: The RFP requires a concise and organized proposal limited to twelve pages, excluding certain attachments. This creates a challenge to effectively communicate RFQXpert's qualifications and approach within the constraints of the page limit.",
+        "mitigation": "Allocate sufficient resources to proposal development. Prioritize key information and tailor the proposal to the specific requirements of the RFP. Utilize a clear and concise writing style. Leverage attachments for supporting documentation, where permitted."
+      },
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "E-Verify and OSHA Training Compliance: The RFP requires compliance with E-Verify requirements and OSHA training for on-site workers. This could create a risk if RFQXpert does not have the required certifications and practices.",
+        "mitigation": "Verify and document compliance with E-Verify requirements, including enrollment and participation in the program. Make sure all workers that may be on-site have the minimum training of 10 hours of OSHA or are in the process of achieving it."
+      },
+      {
+        "category": "Technical",
+        "severity": 3,
+        "likelihood": 2,
+        "description": "Code Integrity Warranty: The RFP includes a code integrity warranty, requiring vendors to warrant that their software is free of disabling procedures. While RFQXpert primarily provides staffing services, it must ensure any software used in the audit process meets this requirement. Failure to comply could result in legal action.",
+        "mitigation": "Ensure that any software used during the audit process is thoroughly vetted for code integrity. Obtain warranties from software vendors regarding the absence of disabling procedures. Implement security protocols to prevent the introduction of malicious code."
       }
     ],
     "low_risk_items": [
       {
-        "category": "Operational",
+        "category": "Financial",
         "severity": 2,
-        "likelihood": 2,
-        "description": "The proposal validity period is 60 calendar days. Market conditions or internal resource availability could change during this period, making the proposal outdated.",
-        "mitigation": "Monitor market conditions and internal resource availability during the proposal validity period. Update the proposal if necessary to reflect any significant changes. Clarify the terms of the validity period with SRMT."
+        "likelihood": 1,
+        "description": "Billing and Payment Terms: The RFP specifies payment terms of Net 45 days. While this is a standard payment term, it could impact RFQXpert's cash flow.",
+        "mitigation": "Factor the payment terms into RFQXpert's financial projections. Negotiate more favorable payment terms if possible."
       },
       {
-        "category": "Technical",
-        "severity": 1,
+        "category": "Legal/Contractual",
+        "severity": 2,
         "likelihood": 1,
-        "description": "The term is one year. SRMT may not be pleased with the services provided and not renew the contract. The Tribal Government would also choose an internal supplier in the future.",
-        "mitigation": "Ensure the best service is provided in the one-year duration. Engage with SRMT frequently and update them on the project's deployment frequently, thus having a better engagement with their staff. "
+        "description": "Supplier Diversity Verification: The RFP specifies approved agencies for MBE/WBE certification. While RFQXpert is HUB and NMSDC certified, it needs to ensure these certifications will be accepted by the Hazelwood School District.",
+        "mitigation": "Confirm that the agencies which provided RFQXpert's MBE/WBE certifications are on the approved list. If not, determine the process of gaining accreditation through an agency that is on the list."
       }
     ]
   }
