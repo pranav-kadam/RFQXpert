@@ -4,6 +4,7 @@ import re
 import os
 import sys
 import asyncio
+import requests
 from typing import Dict, List, Optional, TypedDict
 
 import google.generativeai as genai
@@ -181,22 +182,36 @@ def main():
     try:
         # Generate the checklist and recommendations
         checklist_and_recommendations = generate_checklist_and_recommendations(compliance, eligiblity)
-        
+
         # Define the output path
         output_path = os.path.join(project_root, 'data', 'checklist_output.json')
-        
+
         # Save the output to a JSON file
         if save_to_json(checklist_and_recommendations, output_path):
             print(f"Output successfully saved to {output_path}")
         else:
             print("Failed to save output to file")
-        
+
         # Also print to console for immediate viewing
         print(checklist_and_recommendations)
+
+        # Send the JSON to the frontend endpoint
+        with open(output_path, 'rb') as f:
+           response = requests.post(
+    'http://localhost:3001/api/checklist_output',
+    headers={'Content-Type': 'application/json'},
+    data=json.dumps(checklist_and_recommendations)
+)
+
+
+        if response.status_code in [200, 201]:
+            print(f"Successfully sent checklist_output.json to frontend. Status code: {response.status_code}")
+        else:
+            print(f"Failed to send to frontend. Status code: {response.status_code}, response: {response.text}")
+
     except Exception as e:
         logger.error(f"An error occurred: {e}")
         print(f"An error occurred: {e}")
-
 
 if __name__ == "__main__":
     main()
