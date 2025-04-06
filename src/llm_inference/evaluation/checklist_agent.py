@@ -178,7 +178,7 @@ def save_to_json(data: str, output_path: str) -> bool:
         return False
 
 
-def main():
+async def main():
     """Main function to orchestrate the process."""
     try:
         # Generate the checklist and recommendations

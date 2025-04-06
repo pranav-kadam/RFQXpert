@@ -1,94 +1,81 @@
 {
   "risk_assessment": {
-    "overall_risk_score": 3.1,
+    "overall_risk_score": 3.0,
     "high_risk_items": [
       {
         "category": "Legal/Contractual",
         "severity": 4,
         "likelihood": 3,
-        "description": "Indemnification clause (10.13) is broad and could potentially expose RFQXpert to significant liability arising from MHMR's operations or any damages incurred by the agency, even if RFQXpert is not directly at fault.",
-        "mitigation": "Seek legal counsel to negotiate a more specific and limited indemnification clause, focusing on liability directly attributable to RFQXpert's negligence or wrongful acts. Include language limiting liability to the extent covered by RFQXpert's insurance."
-      },
-      {
-        "category": "Financial",
-        "severity": 4,
-        "likelihood": 3,
-        "description": "Clause 23 indicates that the contracted rates can only be lowered if RFQXpert decreases the hourly rate paid to its workers, while RFQXpert cannot increase the rates passed on to the customer. The agency will not cover increased hourly pay rate beyond the contractor proposal (24). This places RFQXpert at risk if there are increases in hourly rates due to minimum wage increases, labor shortages, etc. This could impact the business' profitability.",
-        "mitigation": "Negotiate for a clause that allows for price adjustments based on documented increases in labor costs due to regulatory changes or market conditions, subject to MHMR approval. Build cost escalation provisions in the proposed hourly billing rates."
+        "description": "The RFP requires compliance with numerous State, Federal, and Local Laws, including ADA, Title VII, ADEA, and Civil Rights Act of 1991. Failure to comply with any of these could result in legal action and penalties.",
+        "mitigation": "Ensure comprehensive legal review of internal practices and compliance programs. Conduct regular training for all staff on relevant laws and regulations. Implement a system for tracking and documenting compliance efforts."
       },
       {
         "category": "Legal/Contractual",
         "severity": 4,
         "likelihood": 3,
-        "description": "MHMR reserves the right to decline the services of any temporary worker for any reason, with or without cause or notice (27). Payments will be rendered only for actual hours of temporary services supplied by the Contractor (28). This means RFQXpert will be responsible for employee pay regardless of whether the temporary employee is being used or not.",
-        "mitigation": "Negotiate a minimum guaranteed payment for each worker sent, even if they are dismissed early without cause, or a clause to place employees in a reasonable time frame, giving RFQXpert the ability to assign them."
+        "description": "The RFP includes broad indemnification clauses (Section 10.13). RFQXpert agrees to indemnify and hold harmless MHMR from a variety of claims, including those arising from negligent or wrongful acts, which could lead to significant financial exposure.",
+        "mitigation": "Carefully review the indemnification clauses with legal counsel. Negotiate to limit the scope of indemnification to the extent possible, ensuring it aligns with RFQXpert's level of control and responsibility. Ensure adequate insurance coverage to address potential liabilities. Develop internal controls to minimize exposure to negligent acts."
+      },
+      {
+        "category": "Operational",
+        "severity": 3,
+        "likelihood": 4,
+        "description": "The RFP states MHMR reserves the right to decline services of any temporary worker, with or without cause. This places the burden on RFQXpert to manage potentially unused employee hours and unexpected costs.",
+        "mitigation": "Develop a robust candidate screening process to ensure high suitability. Maintain open communication with MHMR to understand their evolving needs and preferences. Establish a clear policy for managing worker assignments and potential reassignments. Negotiate a minimum guarantee of hours if possible."
       }
     ],
     "medium_risk_items": [
       {
+        "category": "Financial",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "The RFP stipulates that MHMR will not reimburse mileage or parking (Section 4.1.5). This may impact the profitability of the contract depending on the assignment locations and employee travel costs.",
+        "mitigation": "Factor travel costs into the proposed hourly rates. Explore options for employee compensation for travel. Prioritize placement of candidates who live closer to the MHMR locations to minimize travel expenses."
+      },
+      {
         "category": "Operational",
         "severity": 3,
-        "likelihood": 4,
-        "description": "Attendance at the pre-proposal conference is mandatory (Page 2). Failure to attend waives the right to assert claims due to undiscovered conditions. RFQXpert needs to ensure attendance to mitigate risk of unforeseen challenges during project execution.",
-        "mitigation": "Ensure a qualified representative attends the pre-proposal conference and documents all questions asked and answers provided. Thoroughly review conference materials and address any concerns in the proposal."
+        "likelihood": 3,
+        "description": "MHMR requires a quick response to requests for temporary workers. The inability to provide a temporary worker by the stated deadline is considered an inability to provide the temporary worker (Section 4.1.17).",
+        "mitigation": "Ensure sufficient recruiter and account manager staff capacity to promptly address staffing requests. Maintain a pool of readily available qualified candidates. Implement systems to efficiently track and manage requests and candidate availability."
+      },
+      {
+        "category": "Compliance",
+        "severity": 3,
+        "likelihood": 3,
+        "description": "The RFP requires Contractors to conduct background checks on temporary employees, yet MHMR reserves the right to conduct additional background checks, creating a potential overlap and increased cost (Section 4.1.11).",
+        "mitigation": "Align background check processes with MHMR to avoid duplication. Understand their specific requirements. Clearly communicate the background check process to temporary employees."
       },
       {
         "category": "Legal/Contractual",
         "severity": 3,
-        "likelihood": 3,
-        "description": "Clause 11 states that Contractor(s) shall conduct a background check on all temporary employees sent to MHMR, and MHMR reserves the right to conduct additional background checks. Discrepancies in background checks and standards of acceptance could cause disputes between RFQXpert and MHMR.",
-        "mitigation": "Clarify the background check requirements and standards acceptable to MHMR in writing prior to submitting the proposal. Ensure RFQXpert's background check procedures meet or exceed MHMR's requirements and document all background checks performed."
-      },
-      {
-        "category": "Operational",
-        "severity": 3,
-        "likelihood": 3,
-        "description": "Contractor is responsible and liable for the safety, injury, and health of its personnel while they are performing the temporary services on MHMR property (30). The clause may not accurately capture all relevant incidents.",
-        "mitigation": "Ensure comprehensive safety training for all temporary employees and maintain thorough records of training and safety incidents. Coordinate with MHMR to understand site-specific safety protocols and emergency procedures. The contract should also specify safety protocols/requirements."
-      },
-      {
-        "category": "Operational",
-        "severity": 3,
-        "likelihood": 3,
-        "description": "If all keys to a given MHMR establishment are not returned, the Contractor will absorb the cost of replacing all locks and/or keys (31). Ensure temporary workers return all keys after their assignment is complete or be held liable.",
-        "mitigation": "Implement a strict key control policy, including a sign-out/sign-in process and regular audits. Consider using electronic key tracking systems. Include the cost of potential lock replacement in pricing models."
-      },
-      {
-        "category": "Financial",
-        "severity": 3,
-        "likelihood": 3,
-        "description": "Proposal requires submission of sensitive financial data (Tab 4), including annual reports or a letter from a CPA verifying financial solvency. Disclosure of this information could create risk if data is breached or misused.",
-        "mitigation": "Only provide the minimum necessary financial information and clearly mark any confidential information. Request confirmation of secure handling and storage of the submitted financial documents."
-      },
-      {
-        "category": "Operational",
-        "severity": 2,
-        "likelihood": 4,
-        "description": "Contractors(s) must indicate each position for which they can provide temporary staffing services. Exhibit 1 provides a list of all potential temporary staffing services positions that could be requested by MHMR (21). It is important to define those positions to meet MHMR needs and ensure profitability.",
-        "mitigation": "RFQXpert must carefully assess its current capabilities in this field to determine if it can accurately fulfill the needed staffing positions. This will minimize the impact on resources."
-      },
-      {
-        "category": "Financial",
-        "severity": 3,
-        "likelihood": 3,
-        "description": "Some of the invoices require the contractor to keep a contract rate and include the job position, start date, and end date for each week billed on the invoice, which could add an additional administrative burden on the agency.",
-        "mitigation": "RFQXpert must determine the current administrative workload to know if the business can accurately bill all employees."
+        "likelihood": 2,
+        "description": "Contractor is responsible for the safety, injury, and health of its personnel on MHMR property (Section 4.1.30). This increases workers compensation and liability exposure for RFQXpert.",
+        "mitigation": "Reinforce safety protocols for temporary staff on MHMR premises. Maintain adequate workers' compensation insurance and liability coverage. Conduct regular safety audits and risk assessments.",
+        "compliance": "RFQXpert's insurance policies"
       }
     ],
     "low_risk_items": [
       {
-        "category": "Technical",
+        "category": "Operational",
         "severity": 2,
         "likelihood": 2,
-        "description": "The RFP requests submission of both an original and electronic (flash drive) copy of the completed proposal (Page 6). This requirement is unusual and could lead to technical issues if the flash drive is incompatible or corrupted.",
-        "mitigation": "Thoroughly test the flash drive on multiple computers to ensure compatibility. Clearly label the flash drive with the company name and RFP number. Consider password-protecting the flash drive."
+        "description": "If a contractor's Hourly Pay Rate to its workers goes down, the lower rate is required to be reported to MHMR and reflected in the contractor's billing rate. This could lead to revenue reduction (Section 4.1.23).",
+        "mitigation": "Implement strategies to maintain competitive pay rates. Monitor market trends to anticipate changes in compensation levels. Negotiate rate adjustments with MHMR if necessary."
       },
       {
-        "category": "Legal/Contractual",
+        "category": "Operational",
         "severity": 2,
+        "likelihood": 2,
+        "description": "Temporary workers must return keys, or the Contractor will absorb the cost of replacing locks and/or keys (Section 4.1.31).",
+        "mitigation": "Implement a strict key management procedure. Reinforce the importance of key return to temporary employees. Consider electronic access control where possible."
+      },
+      {
+        "category": "Technical",
+        "severity": 1,
         "likelihood": 1,
-        "description": "Section 7.11 states that the contractor must comply with Texas Government Code regarding boycotting Israel and Iran. RFQXpert needs to ensure compliance with these requirements.",
-        "mitigation": "RFQXpert needs to confirm that it has no existing relationship in Israel and Iran, and if such contracts were to be in effect, the contract must be amended. Include certifications in the proposal affirming compliance with these laws."
+        "description": "The RFP requires electronic submissions on a flash drive. While this is straightforward, failure to comply with the submission guidelines could result in disqualification.",
+        "mitigation": "Double-check formatting requirements before submission. Backup the submission to other locations in case of error."
       }
     ]
   }

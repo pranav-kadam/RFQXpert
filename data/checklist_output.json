@@ -1,19 +1,49 @@
 {
   "requirements_checklist": [
     {
-      "requirement": "Minimum three (3) years of business in Temporary Staffing Services at the time of bid due date.",
+      "requirement": "Mandatory attendance required for all vendors submitting a bid at Pre-Proposal Conference.",
       "status": false,
-      "explanation": "RFQXpert has been in business for 5 years (established in 2020, RFP due in 2025), but it's unclear if the company has been providing temporary staffing for all 5 years. The Gap Analysis indicates that it has only been offering staffing services for some of those years."
+      "explanation": "Attendance at the Mandatory Pre-Proposal Conference is unknown. Must confirm."
+    },
+    {
+      "requirement": "Minimum three (3) years of business in Temporary Staffing Services at the time of bid due date.",
+      "status": true,
+      "explanation": "RFQXpert established in 2020, and the RFP due date is in 2025, exceeding the minimum requirement."
+    },
+    {
+      "requirement": "Proof of insurance (current COI) MUST be submitted WITH the proposal.",
+      "status": false,
+      "explanation": "Current COI indicates that Employers Liability and Auto Liability insurance limits are less than minimum required in RFP."
     },
     {
       "requirement": "Must demonstrate financial stability (Annual Report, CPA Solvency Letter, etc.).",
       "status": true,
-      "explanation": "RFQXpert has a credit rating of 'A', debt-to-equity of 0.8, a current ratio of 2.5, and bank references available, suggesting financial stability."
+      "explanation": "RFQXpert has a 'A' credit rating, debt-to-equity of 0.8, current ratio of 2.5, and bank references available, demonstrating financial stability."
+    },
+    {
+      "requirement": "Provide COI naming MHMR, its officers, employees, and elected representatives as additional insured.",
+      "status": false,
+      "explanation": "Currently does not, COI will need to be updated."
+    },
+    {
+      "requirement": "HUB/DBE Utilization Assessment (If applicable, or indicate None)",
+      "status": false,
+      "explanation": "Requires either HUB/DBE certification (already exists) or demonstrating 'good faith' effort. Assessment form needs to be completed and submitted."
+    },
+    {
+      "requirement": "Assign a dedicated Project Manager for MHMR account.",
+      "status": false,
+      "explanation": "Company data does not indicate dedicated PM, but could be assigned. Requires a dedicated PM to be assigned and availability needs to be ensured."
+    },
+    {
+      "requirement": "Provide copies of relevant licenses, certifications, permits.",
+      "status": false,
+      "explanation": "RFQXpert has licenses and certifications but proof of copies not mentioned. Copies must be gathered and submitted."
     },
     {
       "requirement": "Must comply with all specified legal requirements.",
       "status": true,
-      "explanation": "RFQXpert has licenses, uses E-Verify, and conducts background checks. However, legal and compliance review is still needed to confirm full adherence to all requirements."
+      "explanation": "RFQXpert has licenses, E-Verify, and background checks, indicating compliance with basic legal requirements. Further legal review is needed to confirm all legal requirements are met."
     },
     {
       "requirement": "Provide temporary employees of indefinite quantities on an as-needed, non-exclusive basis.",
@@ -31,29 +61,29 @@
       "explanation": "RFQXpert conducts background checks."
     },
     {
-      "requirement": "Return all keys upon assignment completion; Contractor bears cost of re-keying if keys are lost/not returned.",
-      "status": true,
-      "explanation": "Presumed to be part of RFQXpert's standard procedures and can be implemented."
-    },
-    {
       "requirement": "Comply with all State, Federal, Local Laws (incl. ADA, Title VII, ADEA, CRA 1991).",
       "status": true,
-      "explanation": "RFQXpert presumed to comply."
+      "explanation": "RFQXpert presumed to comply, will be reviewed"
+    },
+    {
+      "requirement": "Return all keys upon assignment completion; Contractor bears cost of re-keying if keys are lost/not returned.",
+      "status": true,
+      "explanation": "Presumed to be part of RFQXpert's standard procedures and can be implemented"
     },
     {
       "requirement": "Contractor responsible for payroll, deductions, taxes, insurance, wages, benefits for its employees.",
       "status": true,
-      "explanation": "RFQXpert presumed to be compliant with this since they provide staffing services."
+      "explanation": "RFQXpert presumed to be compliant since they provide staffing services"
     },
     {
       "requirement": "Comply with Immigration Reform and Control Act of 1986. Use E-Verify if required by funding source.",
       "status": true,
-      "explanation": "RFQXpert uses E-Verify."
+      "explanation": "RFQXpert uses E-Verify"
     },
     {
       "requirement": "Adhere to MHMR's non-discrimination policy.",
       "status": true,
-      "explanation": "RFQXpert presumed to adhere."
+      "explanation": "RFQXpert presumed to adhere"
     },
     {
       "requirement": "Texas Public Information Act compliance.",
@@ -73,7 +103,7 @@
     {
       "requirement": "Contractor must indemnify and hold harmless MHMR from suits, actions, claims, costs arising from contractor's negligence or wrongful acts.",
       "status": true,
-      "explanation": "Assumed to be included in contract agreement. Legal review needed to confirm."
+      "explanation": "Assumed to be included in contract agreement. Legal review needed to confirm"
     },
     {
       "requirement": "Submission format, copies, delivery, address, deadline, envelope marking, signing, late proposals.",
@@ -83,7 +113,7 @@
     {
       "requirement": "BackgroundChecks requirement mentioned in SpecificRequirements is met",
       "status": true,
-      "explanation": "Background checks mentioned in SpecificRequirements is met"
+      "explanation": "The company performs background checks"
     },
     {
       "requirement": "Ability to respond quickly to requests.",
@@ -101,183 +131,140 @@
       "explanation": "Invoicing procedures can be implemented by the company."
     },
     {
-      "requirement": "Mandatory attendance required for all vendors submitting a bid at Pre-Proposal Conference.",
+      "requirement": "Information Technology Audit Services",
       "status": false,
-      "explanation": "No information if RFQXpert attended the pre-proposal conference."
-    },
-    {
-      "requirement": "Proof of insurance (current COI) MUST be submitted WITH the proposal.",
-      "status": false,
-      "explanation": "Employers Liability and Auto Liability insurance limits are less than the minimum required in the RFP."
-    },
-    {
-      "requirement": "Provide COI naming MHMR, its officers, employees, and elected representatives as additional insured.",
-      "status": false,
-      "explanation": "Currently does not, COI will need to be updated."
-    },
-    {
-      "requirement": "HUB/DBE Utilization Assessment (If applicable, or indicate None)",
-      "status": false,
-      "explanation": "Requires either HUB/DBE certification or demonstrating 'good faith' effort."
-    },
-    {
-      "requirement": "Assign a dedicated Project Manager for MHMR account.",
-      "status": false,
-      "explanation": "Company data does not indicate dedicated PM, but could be assigned."
-    },
-    {
-      "requirement": "Provide copies of relevant licenses, certifications, permits.",
-      "status": false,
-      "explanation": "RFQXpert has licenses and certifications but proof of copies not mentioned."
-    },
-    {
-      "requirement": "Applicant/employee testing conducted by agency.",
-      "status": false,
-      "explanation": "RFQXpert does not have specified applicant/employee testing capabilities"
-    },
-    {
-      "requirement": "Employee training conducted by agency.",
-      "status": false,
-      "explanation": "RFQXpert does not have specified employee training procedures."
-    },
-    {
-      "requirement": "Provide temporary staffing for Administrative, Medical, Caretaker, Finance, Accounting, Patient Financial Services, Credentialing, IT, and Legal Support Services.",
-      "status": false,
-      "explanation": "RFQXpert has not specified all of the temp staffing services capabilities listed."
+      "explanation": "RFQXpert does not offer IT Audit services."
     }
   ],
   "compliance_status": {
-    "summary": "RFQXpert meets the majority of the requirements but has significant gaps related to specific service offerings, insurance coverage, pre-proposal conference attendance, documentation, and legal compliance confirmations. Legal review is necessary to confirm compliance with relevant regulations. Proof of copies of certificates and permits are missing.",
-    "compliance_percentage": "72%",
+    "summary": "RFQXpert currently meets a significant portion of the RFP requirements, but has key unmet requirements including submission of copies, specific insurance coverages, the HUB/DBE assessment, and Pre-Proposal Conference attendance. Most importantly, the need for IT Audit services is a significant gap.",
+    "compliance_percentage": "85%",
     "major_gaps": [
-      "Lack of clarity on years providing temporary staffing services specifically.",
-      "Failure to attend the Mandatory Pre-Proposal Conference.",
-      "Inadequate insurance coverage (Employers Liability and Auto Liability below minimum required).",
-      "Absence of COI naming MHMR as an additional insured.",
-      "Missing HUB/DBE Utilization Assessment.",
-      "Lack of copies of licenses, certifications and permits.",
-      "No formal documentation on applicant/employee testing conducted by agency.",
-      "No documentation on employee training conducted by agency.",
-      "Specific service offerings not clearly defined."
+      "Lack of IT Audit service offering",
+      "Non-compliance with minimum insurance requirements.",
+      "Failure to provide COI naming MHMR as additional insured.",
+      "Failure to submit HUB/DBE Utilization Assessment.",
+      "Failure to provide copies of licenses, certifications, permits.",
+      "Unknown attendance at the Mandatory Pre-Proposal Conference."
     ]
   },
   "recommendations": [
     {
       "priority": "High",
-      "recommendation": "Confirm attendance at the Mandatory Pre-Proposal Conference. If not attended, assess the impact on the proposal and whether it's still viable.",
-      "related_gap": "Failure to attend the Mandatory Pre-Proposal Conference."
+      "recommendation": "Immediately partner with an IT audit firm to fulfill the core RFP requirement of providing IT Audit services. Ensure the partner has experience in school district IT audits. (From GAP Analysis and eligibility data)",
+      "related_gap": "Information Technology Audit Services"
     },
     {
       "priority": "High",
-      "recommendation": "Increase Employers Liability and Auto Liability insurance coverage to meet or exceed the RFP requirements. Need to increase Employer's Liability to $500K and Auto Liability to $500K.",
-      "related_gap": "Inadequate insurance coverage (Employers Liability and Auto Liability below minimum required)."
+      "recommendation": "Contact the Hazelwood School District to confirm if attendance at the Pre-Proposal Conference is mandatory, and whether there is any way to meet this requirement retroactively. (From Eligibility Data)",
+      "related_gap": "Mandatory attendance required for all vendors submitting a bid at Pre-Proposal Conference."
     },
     {
       "priority": "High",
-      "recommendation": "Obtain a Certificate of Insurance (COI) that specifically names MHMR of Tarrant County, its officers, employees, and elected representatives as additional insured. Ensure that the insurance policy meets all of MHMR's minimum requirements.",
-      "related_gap": "Absence of COI naming MHMR as an additional insured."
+      "recommendation": "Immediately increase Employers Liability and Auto Liability insurance coverage to meet or exceed the RFP requirements ($500K minimum each). (From Eligibility Data)",
+      "related_gap": "Proof of insurance (current COI) MUST be submitted WITH the proposal."
     },
     {
       "priority": "High",
-      "recommendation": "Complete the HUB/DBE Utilization Assessment (Attachment A), documenting either HUB/DBE participation or a demonstration of good faith efforts to include them.",
-      "related_gap": "Missing HUB/DBE Utilization Assessment."
+      "recommendation": "Obtain a Certificate of Insurance (COI) that specifically names MHMR of Tarrant County, its officers, employees, and elected representatives as additional insured. Ensure that the insurance policy meets all of MHMR's minimum requirements. (From Eligibility Data)",
+      "related_gap": "Provide COI naming MHMR, its officers, employees, and elected representatives as additional insured."
     },
     {
       "priority": "High",
-      "recommendation": "Gather copies of all relevant licenses, certifications, and permits to submit with the proposal.",
-      "related_gap": "Lack of copies of licenses, certifications and permits."
+      "recommendation": "Complete the HUB/DBE Utilization Assessment (Attachment A), documenting either HUB/DBE participation or a demonstration of good faith efforts to include them. (From Eligibility Data and GAP Analysis)",
+      "related_gap": "HUB/DBE Utilization Assessment (If applicable, or indicate None)"
+    },
+    {
+      "priority": "High",
+      "recommendation": "Gather copies of all relevant licenses, certifications, and permits to submit with the proposal. Create a checklist of required forms to ensure all items are collected. (From Eligibility Data)",
+      "related_gap": "Provide copies of relevant licenses, certifications, permits."
     },
     {
       "priority": "Medium",
-      "recommendation": "Clarify the number of years RFQXpert has specifically provided Temporary Staffing Services. If less than 3, highlight relevant experience and expertise that compensates for this shortfall, emphasizing successful past performance with similar clients.",
-      "related_gap": "Lack of clarity on years providing temporary staffing services specifically."
+      "recommendation": "Assign a dedicated Project Manager for the MHMR account and ensure their availability to fulfill the contract requirements. (From Eligibility Data)",
+      "related_gap": "Assign a dedicated Project Manager for MHMR account."
     },
     {
       "priority": "Medium",
-      "recommendation": "Assign a dedicated Project Manager for the MHMR account and ensure their availability to fulfill the contract requirements.",
-      "related_gap": "Need for a dedicated Project Manager for MHMR account."
+      "recommendation": "Verify current insurance coverage meets all requirements, including Professional Errors and Omissions insurance at $1,000,000 per occurrence. If not, obtain necessary endorsements or additional policies. Factor the cost of insurance into the proposal pricing. (From Risk Assessment)",
+      "related_gap": "Professional Errors and Omissions Insurance ($1M)"
     },
     {
       "priority": "Medium",
-      "recommendation": "Develop and document testing procedures for applicants/employees and specify them in the proposal",
-      "related_gap": "RFQXpert does not have specified applicant/employee testing capabilities"
+      "recommendation": "Emphasize existing diversity certifications and highlight any subcontracting plans with MBE/WBE firms if possible. If not, fully document why the goals cannot be met and demonstrate a good-faith effort to comply. (From Risk Assessment)",
+      "related_gap": "MBE/WBE participation goals (25% MBE and 5% WBE)"
     },
     {
       "priority": "Medium",
-      "recommendation": "Develop and document employee training procedures and specify them in the proposal.",
-      "related_gap": "RFQXpert does not have specified employee training procedures."
+      "recommendation": "If RFQXpert intends to submit a proposal, legal and compliance review is necessary to confirm compliance with all relevant regulations. Review all requirements relating to Texas Public Information Act compliance, No Boycotting Israel certification (TX Gov Code), and No Prohibited Business Operations certification. (From Eligibility Data and Risk Assessment)",
+      "related_gap": "Texas Public Information Act compliance, No Boycotting Israel certification (TX Gov Code), and No Prohibited Business Operations certification"
     },
     {
       "priority": "Medium",
-      "recommendation": "Define the temp staffing services to be provided to RFQXpert and list those capabilities in the proposal.",
-      "related_gap": "RFQXpert has not specified all of the temp staffing services capabilities listed."
+      "recommendation": "Legal to review requirement to indemnify and hold harmless MHMR from suits, actions, claims, costs arising from contractor's negligence or wrongful acts. (From Eligibility Data and Risk Assessment)",
+      "related_gap": "Contractor must indemnify and hold harmless MHMR from suits, actions, claims, costs arising from contractor's negligence or wrongful acts"
     },
     {
       "priority": "Low",
-      "recommendation": "Create a checklist of required forms to make sure they are filled out, notarized, and included as required by RFP.",
-      "related_gap": "General RFP compliance."
+      "recommendation": "Ensure extreme clarity and precision in the proposal. Address all RFP requirements explicitly and avoid any vague language. Legal review should prioritize clarity to minimize potential for misinterpretation by the District. Negotiate to remove clause or modify so ambiguities are resolved fairly. (From Risk Assessment)",
+      "related_gap": "RFP Inconsistency Clause"
     },
     {
       "priority": "Low",
-      "recommendation": "Obtain signed copies of Texas-specific documents.",
-      "related_gap": "General RFP compliance."
-    },
-    {
-      "priority": "Low",
-      "recommendation": "If RFQXpert intends to submit a proposal, legal and compliance review is necessary to confirm compliance with all relevant regulations.",
-      "related_gap": "General RFP compliance."
+      "recommendation": "Carefully and realistically estimate all costs, including potential contingencies. Factor in inflation and potential cost increases. Negotiate for shorter payment terms (e.g., Net 30). Include a clause that allows for price adjustments in the event of significant unforeseen circumstances (difficult, but worth attempting). (From Risk Assessment)",
+      "related_gap": "Fixed-price contract risk"
     }
   ],
   "plan_of_action": [
     {
       "step": 1,
-      "description": "Insurance Coverage: Contact insurance provider to increase Employer's Liability and Auto Liability coverage to $500,000 minimum each and obtain a COI naming MHMR as additionally insured. Submit to MHMR for review.",
-      "timeline": "Within 1 week"
+      "description": "Contact Hazelwood School District to clarify the possibility to make up for the mandatory Pre-Proposal Conference attendance.",
+      "timeline": "Immediate"
     },
     {
       "step": 2,
-      "description": "Pre-Proposal Conference: Determine if the pre-proposal conference was attended. If not, assess the feasibility of continuing with the proposal or consider withdrawing.",
-      "timeline": "Within 1 day"
+      "description": "Finalize partnership agreement with a reputable IT audit firm with school district experience, clarifying roles, responsibilities, and revenue sharing.",
+      "timeline": "1 week"
     },
     {
       "step": 3,
-      "description": "HUB/DBE Assessment: Complete the HUB/DBE Utilization Assessment form. Decide whether to pursue HUB/DBE certification or demonstrate good faith efforts and document them.",
-      "timeline": "Within 3 days"
+      "description": "Increase Employers Liability and Auto Liability insurance coverage to the minimum required, and obtain an updated Certificate of Insurance (COI) naming MHMR as an additional insured.",
+      "timeline": "1 week"
     },
     {
       "step": 4,
-      "description": "Documentation Gathering: Compile copies of all relevant licenses, certifications, and permits. Create an organized file for submission.",
-      "timeline": "Within 2 days"
+      "description": "Complete the HUB/DBE Utilization Assessment form, clearly documenting MBE/WBE participation plans or good faith efforts.",
+      "timeline": "1 week"
     },
     {
       "step": 5,
-      "description": "Staffing Services History: Clarify the company's history in providing Temporary Staffing Services, determining the number of years RFQXpert has specifically offered Temporary Staffing Services. Prepare an explanation for submission that highlights relevant experience and expertise.",
-      "timeline": "Within 2 days"
+      "description": "Assign a dedicated Project Manager to the MHMR account.",
+      "timeline": "1 week"
     },
     {
       "step": 6,
-      "description": "Testing Procedures: Develop and document testing procedures for applicants/employees that are in compliance with the RFP requirements.",
-      "timeline": "Within 3 days"
+      "description": "Gather copies of all required licenses, certifications, permits, and Texas specific documents.",
+      "timeline": "1 week"
     },
     {
       "step": 7,
-      "description": "Training Procedures: Develop and document employee training procedures that are in compliance with the RFP requirements.",
-      "timeline": "Within 3 days"
+      "description": "Conduct a comprehensive legal review of the RFP, focusing on liability, indemnity, and compliance with all relevant laws and regulations, to identify areas that require modifications.",
+      "timeline": "1 week"
     },
     {
       "step": 8,
-      "description": "Staffing Positions: Develop a list of the specific positions that the company is capable of staffing to RFQXpert.",
-      "timeline": "Within 3 days"
+      "description": "Draft the initial proposal, incorporating the IT audit firm's expertise and focusing on clarity and compliance with all RFP requirements.",
+      "timeline": "2 weeks"
     },
     {
       "step": 9,
-      "description": "Project Manager Assignment: Assign a dedicated project manager for the MHMR account.",
-      "timeline": "Within 1 week"
+      "description": "Review and revise the proposal with the legal and compliance teams, ensuring it meets all requirements and minimizes potential risks.",
+      "timeline": "3 weeks"
     },
     {
       "step": 10,
-      "description": "Legal and Compliance Review: Conduct a legal and compliance review to ensure compliance with all relevant regulations, including Texas Public Information Act, Boycotting Israel certification, and Prohibited Business Operations certification.",
-      "timeline": "Within 1 week"
+      "description": "Finalize the proposal and submit it before the deadline, ensuring all required documents and forms are included.",
+      "timeline": "4 weeks"
     }
   ]
 }

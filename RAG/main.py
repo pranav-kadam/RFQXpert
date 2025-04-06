@@ -26,16 +26,6 @@ STORAGE_PATH = os.path.join(DATA_DIR, "embeddings.json")
 TEXT_STORAGE_PATH = os.path.join(DATA_DIR, "embedding.json")
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-FLAG_FILE = 'rag_ready.flag' # Relative to RAG directory
-if not os.path.exists(FLAG_FILE):
-    try:
-        # Ensure directory exists if needed, though here it's in the CWD
-        # os.makedirs(os.path.dirname(FLAG_FILE), exist_ok=True)
-        with open(FLAG_FILE, 'w') as f:
-            f.write('ready') # Content doesn't matter
-        print(f"Created signal file: {FLAG_FILE}")
-    except Exception as e:
-        print(f"Error creating signal file {FLAG_FILE}: {e}")
 
 # ===== Gemini Client =====
 class GeminiClient:
@@ -200,6 +190,17 @@ async def upload_file(file: UploadFile = File(...)):
 @app.get("/")
 async def root():
     return {"message": "File Processing API is running"}
+
+FLAG_FILE = 'rag_ready.flag' # Relative to RAG directory
+if not os.path.exists(FLAG_FILE):
+    try:
+        # Ensure directory exists if needed, though here it's in the CWD
+        # os.makedirs(os.path.dirname(FLAG_FILE), exist_ok=True)
+        with open(FLAG_FILE, 'w') as f:
+            f.write('ready') # Content doesn't matter
+        print(f"Created signal file: {FLAG_FILE}")
+    except Exception as e:
+        print(f"Error creating signal file {FLAG_FILE}: {e}")
 
 # ===== Main execution =====
 if __name__ == "__main__":
