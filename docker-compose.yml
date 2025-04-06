@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  rag_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./RAG:/app
+      - ./requirements.txt:/app/requirements.txt  # Mount requirements
+    working_dir: /app
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      - ENV=development
+    restart: unless-stopped
+
+  data_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/app
+      - ./requirements.txt:/app/requirements.txt
+    working_dir: /app
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001"]
+    depends_on:
+      - rag_service
+    restart: unless-stopped
+
+  llm_inference:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src/llm_inference:/app
+      - ./requirements.txt:/app/requirements.txt
+    working_dir: /app
+    command: ["python", "main.py"]
+    depends_on:
+      - rag_service
+    restart: on-failure
