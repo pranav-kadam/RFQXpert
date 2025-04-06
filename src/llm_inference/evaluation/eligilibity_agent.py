@@ -77,7 +77,7 @@ RFP: {rfp_data}
 Tasks:
 1. List all MANDATORY requirements from RFP
 2. Check which requirements are met by the company
-3. If there is any ambiguity, apply critical thinking to judge whether company can meet the requirement.
+3. If there is any ambiguity, apply critical thinking to judge whether company can meet the requirement within deadline.
 4. Provide clear yes/no eligibility conclusion
 
 Return JSON format:

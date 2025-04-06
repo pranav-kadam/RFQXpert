@@ -24,6 +24,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # Use fixed filenames for storage
 STORAGE_PATH = os.path.join(DATA_DIR, "embeddings.json")
 TEXT_STORAGE_PATH = os.path.join(DATA_DIR, "embedding.json")
+FLAG_FILE = "rag_ready.flag"
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -161,7 +162,6 @@ async def upload_file(file: UploadFile = File(...)):
         with open(TEXT_STORAGE_PATH, "w", encoding="utf-8") as f:
             json.dump({"text": text_content}, f, ensure_ascii=False, indent=2)
 
-        
         # Process the text content into chunks
         chunks = load_user_file(text_content, "embedding.json")
         
@@ -173,10 +173,15 @@ async def upload_file(file: UploadFile = File(...)):
         
         # Store embeddings
         store_embeddings(chunks, "embedding.json")
-        print("Successfully Parsed")
+
+        # Signal to orchestrator that parsing is complete
+        with open(FLAG_FILE, 'w') as f:
+            f.write('ready')
+        print("Successfully Parsed and flag written")
+
         return JSONResponse(
             status_code=200,
-            content={"message": f"File converted to text and processed successfully as embeddings.txt"}
+            content={"message": "File converted to text and processed successfully as embeddings.txt"}
         )
     
     except Exception as e:
@@ -190,17 +195,6 @@ async def upload_file(file: UploadFile = File(...)):
 @app.get("/")
 async def root():
     return {"message": "File Processing API is running"}
-
-FLAG_FILE = 'rag_ready.flag' # Relative to RAG directory
-if not os.path.exists(FLAG_FILE):
-    try:
-        # Ensure directory exists if needed, though here it's in the CWD
-        # os.makedirs(os.path.dirname(FLAG_FILE), exist_ok=True)
-        with open(FLAG_FILE, 'w') as f:
-            f.write('ready') # Content doesn't matter
-        print(f"Created signal file: {FLAG_FILE}")
-    except Exception as e:
-        print(f"Error creating signal file {FLAG_FILE}: {e}")
 
 # ===== Main execution =====
 if __name__ == "__main__":

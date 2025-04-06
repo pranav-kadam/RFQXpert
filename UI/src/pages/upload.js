@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 export default function Home() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -8,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchData = () => {
-      fetch('http://localhost:8001/data')
+      fetch('http://127.0.0.1:8000/data')
         .then((res) => {
           if (!res.ok) {
             throw new Error('Network response was not ok');

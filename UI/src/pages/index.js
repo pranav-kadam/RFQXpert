@@ -39,7 +39,7 @@ export default function Home() {
           icon: "tabler:arrow-right",
           label: "😻 Learn What's New",
         }}
-        title="Revolutionize Your Government RFP Response with RFQExpert"
+        title="Revolutionize Your Government RFP Response with RFPXpert"
         description="Navigating the complexities of government Requests for Proposals (RFPs) is a time-consuming and error-prone process. Manual analysis leaves room for costly oversights and missed opportunities."
         buttons={[
           {

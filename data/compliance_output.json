@@ -1,58 +1,64 @@
 {
   "risk_assessment": {
-    "overall_risk_score": 3.0,
+    "overall_risk_score": 3.1,
     "high_risk_items": [
       {
         "category": "Legal/Contractual",
         "severity": 4,
-        "likelihood": 3,
-        "description": "The RFP requires compliance with numerous State, Federal, and Local Laws, including ADA, Title VII, ADEA, and Civil Rights Act of 1991. Failure to comply with any of these could result in legal action and penalties.",
-        "mitigation": "Ensure comprehensive legal review of internal practices and compliance programs. Conduct regular training for all staff on relevant laws and regulations. Implement a system for tracking and documenting compliance efforts."
+        "likelihood": 4,
+        "description": "The RFP includes a Native American Preference Policy. RFQXpert is not Native American owned. Winning the bid will be challenging unless RFQXpert subcontracts with a Native American business. If RFQXpert were to fraudulently claim Native American status, it would be a severe legal violation.",
+        "mitigation": "Do not falsely claim Native American preference. Explore partnership or subcontracting opportunities with certified Native American businesses to fulfill preference requirements. Disclose all subcontracting arrangements. Thoroughly review the Native American Preference Policy and SRMT General Contract Terms and Conditions."
+      },
+      {
+        "category": "Legal/Contractual",
+        "severity": 5,
+        "likelihood": 2,
+        "description": "The SRMT Corporate Compliance Policy states that successful proposers will be screened against the Department of Health & Human Services/Office of Inspector General and The System for Award Management (SAM) exclusion database. Any findings will cause the proposal to be non-responsive or will lead to contract termination if discovered after the award. RFQXpert must maintain its SAM.gov registration to avoid being excluded from eligibility for federal funds",
+        "mitigation": "Ensure RFQXpert maintains an active and compliant SAM.gov registration. Regularly check the company's status in SAM.gov and address any issues immediately. Conduct internal audits to proactively identify and resolve any potential compliance issues."
       },
       {
         "category": "Legal/Contractual",
         "severity": 4,
         "likelihood": 3,
-        "description": "The RFP includes broad indemnification clauses (Section 10.13). RFQXpert agrees to indemnify and hold harmless MHMR from a variety of claims, including those arising from negligent or wrongful acts, which could lead to significant financial exposure.",
-        "mitigation": "Carefully review the indemnification clauses with legal counsel. Negotiate to limit the scope of indemnification to the extent possible, ensuring it aligns with RFQXpert's level of control and responsibility. Ensure adequate insurance coverage to address potential liabilities. Develop internal controls to minimize exposure to negligent acts."
+        "description": "The RFP includes numerous certifications (Lobbying, Debarment, Drug-Free Workplace, Trafficking in Persons, Anti-Collusion). Failure to comply with these certifications could lead to legal repercussions and contract termination.",
+        "mitigation": "Thoroughly review all certifications and ensure RFQXpert meets the requirements. Implement internal policies and procedures to maintain compliance. Obtain legal counsel to review certifications and compliance procedures."
+      },
+      {
+        "category": "Financial",
+        "severity": 3,
+        "likelihood": 4,
+        "description": "The RFP requests a firm fixed pricing structure with Net 30 payment terms. If RFQXpert underestimates the project costs, or is slow in providing deliverables it may be at risk of delivering services for less profit than expected. There is also a risk of non-payment from SRMT. The Tribal Government is tax exempt.",
+        "mitigation": "Conduct a comprehensive cost analysis, factoring in all potential expenses. Negotiate favorable payment terms and establish clear milestones for payment. Ensure proper invoicing procedures and maintain open communication with SRMT regarding payment schedules. Understand implications of the tribal government being tax exempt."
       },
       {
         "category": "Operational",
-        "severity": 3,
-        "likelihood": 4,
-        "description": "The RFP states MHMR reserves the right to decline services of any temporary worker, with or without cause. This places the burden on RFQXpert to manage potentially unused employee hours and unexpected costs.",
-        "mitigation": "Develop a robust candidate screening process to ensure high suitability. Maintain open communication with MHMR to understand their evolving needs and preferences. Establish a clear policy for managing worker assignments and potential reassignments. Negotiate a minimum guarantee of hours if possible."
+        "severity": 4,
+        "likelihood": 3,
+        "description": "The RFP requires training for Tribal program staff to maintain websites without specialized technical knowledge. This requires adequate training documentation to be provided, and the staff need to be trained to a minimum level to successfully maintain the website.",
+        "mitigation": "Allocate sufficient resources for training. Develop a comprehensive training program with clear documentation. Provide ongoing support to tribal staff to ensure successful website maintenance. Obtain feedback from tribal staff to improve the training program."
       }
     ],
     "medium_risk_items": [
       {
-        "category": "Financial",
+        "category": "Technical",
         "severity": 3,
         "likelihood": 3,
-        "description": "The RFP stipulates that MHMR will not reimburse mileage or parking (Section 4.1.5). This may impact the profitability of the contract depending on the assignment locations and employee travel costs.",
-        "mitigation": "Factor travel costs into the proposed hourly rates. Explore options for employee compensation for travel. Prioritize placement of candidates who live closer to the MHMR locations to minimize travel expenses."
-      },
-      {
-        "category": "Operational",
-        "severity": 3,
-        "likelihood": 3,
-        "description": "MHMR requires a quick response to requests for temporary workers. The inability to provide a temporary worker by the stated deadline is considered an inability to provide the temporary worker (Section 4.1.17).",
-        "mitigation": "Ensure sufficient recruiter and account manager staff capacity to promptly address staffing requests. Maintain a pool of readily available qualified candidates. Implement systems to efficiently track and manage requests and candidate availability."
-      },
-      {
-        "category": "Compliance",
-        "severity": 3,
-        "likelihood": 3,
-        "description": "The RFP requires Contractors to conduct background checks on temporary employees, yet MHMR reserves the right to conduct additional background checks, creating a potential overlap and increased cost (Section 4.1.11).",
-        "mitigation": "Align background check processes with MHMR to avoid duplication. Understand their specific requirements. Clearly communicate the background check process to temporary employees."
+        "description": "The RFP requires expertise in Craft CMS 3. If RFQXpert lacks sufficient experience or the required skills in Craft CMS 3, project delays or quality issues may arise. The RFQ also asks for ongoing website support. RFQXpert staff may become overwhelmed and may take long to respond to queries.",
+        "mitigation": "Assess RFQXpert's internal expertise in Craft CMS 3. Provide additional training or hire qualified personnel if necessary. Document all development and maintenance processes. Implement an efficient system for responding to inquiries and resolving technical issues. Ensure enough internal staff can provide support."
       },
       {
         "category": "Legal/Contractual",
         "severity": 3,
+        "likelihood": 3,
+        "description": "The SRMT General Contract Terms and Conditions include clauses regarding indemnification, liability, and termination. Understanding the full implications of these clauses is crucial to avoid potential disputes or financial losses.",
+        "mitigation": "Thoroughly review and understand all terms and conditions, particularly those related to indemnification, liability, and termination. Consult with legal counsel to clarify any ambiguous clauses. Negotiate modifications to the contract terms to mitigate potential risks."
+      },
+      {
+        "category": "Operational",
+        "severity": 3,
         "likelihood": 2,
-        "description": "Contractor is responsible for the safety, injury, and health of its personnel on MHMR property (Section 4.1.30). This increases workers compensation and liability exposure for RFQXpert.",
-        "mitigation": "Reinforce safety protocols for temporary staff on MHMR premises. Maintain adequate workers' compensation insurance and liability coverage. Conduct regular safety audits and risk assessments.",
-        "compliance": "RFQXpert's insurance policies"
+        "description": "The RFP mentions SRMT having the right to terminate the contract due to not meeting any or all agreement terms, and conditions. Failing to meet these terms will have impact on project completion. ",
+        "mitigation": "Ensure that RFQXpert meet all agreement terms and conditions, and will work towards project completion with high service quality. Follow all SRMT instructions in project deployment and consult legal counsel for advice."
       }
     ],
     "low_risk_items": [
@@ -60,22 +66,15 @@
         "category": "Operational",
         "severity": 2,
         "likelihood": 2,
-        "description": "If a contractor's Hourly Pay Rate to its workers goes down, the lower rate is required to be reported to MHMR and reflected in the contractor's billing rate. This could lead to revenue reduction (Section 4.1.23).",
-        "mitigation": "Implement strategies to maintain competitive pay rates. Monitor market trends to anticipate changes in compensation levels. Negotiate rate adjustments with MHMR if necessary."
-      },
-      {
-        "category": "Operational",
-        "severity": 2,
-        "likelihood": 2,
-        "description": "Temporary workers must return keys, or the Contractor will absorb the cost of replacing locks and/or keys (Section 4.1.31).",
-        "mitigation": "Implement a strict key management procedure. Reinforce the importance of key return to temporary employees. Consider electronic access control where possible."
+        "description": "The proposal validity period is 60 calendar days. Market conditions or internal resource availability could change during this period, making the proposal outdated.",
+        "mitigation": "Monitor market conditions and internal resource availability during the proposal validity period. Update the proposal if necessary to reflect any significant changes. Clarify the terms of the validity period with SRMT."
       },
       {
         "category": "Technical",
         "severity": 1,
         "likelihood": 1,
-        "description": "The RFP requires electronic submissions on a flash drive. While this is straightforward, failure to comply with the submission guidelines could result in disqualification.",
-        "mitigation": "Double-check formatting requirements before submission. Backup the submission to other locations in case of error."
+        "description": "The term is one year. SRMT may not be pleased with the services provided and not renew the contract. The Tribal Government would also choose an internal supplier in the future.",
+        "mitigation": "Ensure the best service is provided in the one-year duration. Engage with SRMT frequently and update them on the project's deployment frequently, thus having a better engagement with their staff. "
       }
     ]
   }
