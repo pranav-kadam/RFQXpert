@@ -31,8 +31,7 @@ class PlanOfAction(TypedDict):
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = "models/gemini-1.5-pro-latest"
 COMPANY_DATA_PATH = 'data/companydata.json'
-RFP_DATA_PATH = 'data/processed/rfq.json'
-GAP_DATA_PATH = 'data/gap_analysis_output.json'  # Optional
+RFP_DATA_PATH = 'RAG/data/embedding.json'
 
 # --- Gemini Setup ---
 if not GEMINI_API_KEY:
@@ -77,8 +76,6 @@ Company Profile:
 RFP Details:
 {rfp_data}
 
-Gap Analysis (if available):
-{gap_data}
 
 Return JSON in this format:
 {{
@@ -110,11 +107,10 @@ def parse_plan_response(response) -> PlanOfAction:
         raise
 
 # --- Core Evaluation Function ---
-async def generate_plan_of_action(company_data: str, rfp_data: str, gap_data: str = "") -> PlanOfAction:
+async def generate_plan_of_action(company_data: str, rfp_data: str) -> PlanOfAction:
     prompt = PLAN_OF_ACTION_PROMPT.format(
         company_data=company_data,
         rfp_data=rfp_data,
-        gap_data=gap_data
     )
 
     try:
@@ -131,17 +127,15 @@ async def main(rfp_file: Optional[str] = None):
     try:
         company = load_json(COMPANY_DATA_PATH)
         rfp = load_json(rfp_file or RFP_DATA_PATH)
-        gap = load_json(GAP_DATA_PATH)  # Optional
     except Exception as e:
         logger.error(f"Input data loading failed: {e}")
         return
 
     company_str = json.dumps(company, indent=2)
     rfp_str = json.dumps(rfp, indent=2)
-    gap_str = json.dumps(gap, indent=2) if gap else ""
 
     try:
-        result = await generate_plan_of_action(company_str, rfp_str, gap_str)
+        result = await generate_plan_of_action(company_str, rfp_str)
 
         output_path = os.path.join(project_root, 'data/plan_of_action_output.json')
         with open(output_path, 'w', encoding='utf-8') as f:

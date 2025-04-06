@@ -22,6 +22,7 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = 'gemini-2.0-flash'
 COMPLIANCE = os.path.join(project_root, 'data', 'compliance_output.json') # Relative path within project
 ELIGIBLITY = os.path.join(project_root, 'data', 'eligibility_output.json')
+POA = os.path.join(project_root, 'data', 'gap_analysis_output.json')
 
 if not GEMINI_API_KEY:
     logger.error("GEMINI_API_KEY environment variable not set.")
@@ -73,6 +74,13 @@ except Exception:
     logger.warning("Failed to load RFP data. Using placeholder.")
     eligiblity = "{}"  # Placeholder
 
+try:
+    poa = load_json_data(POA)
+    poa = json.dumps(poa, indent=2)
+except Exception:
+    logger.warning("Failed to load RFP data. Using placeholder.")
+    poa = "{}"  # Placeholder
+
 # --- Main Functionality ---
 def generate_checklist_and_recommendations(compliance_data: str, eligibility_data: str) -> str:
     """Generates a checklist of requirements met, compliance status, and recommendations using Gemini."""
@@ -81,10 +89,13 @@ def generate_checklist_and_recommendations(compliance_data: str, eligibility_dat
 You are an AI assistant that analyzes company compliance data and RFP (Request for Proposal) eligibility requirements to generate a checklist, assess compliance, and provide recommendations.
 
 Here's the company compliance data:
-{compliance_data}
+{compliance}
 
 Here's the RFP eligibility data:
-{eligibility_data}
+{eligiblity}
+
+Here's the GAP analysis data:
+{poa}
 
 Based on this data, please generate the following in json:
 
@@ -97,7 +108,16 @@ Based on this data, please generate the following in json:
 3.  Recommendations:
     Provide specific and actionable recommendations to address any identified compliance gaps. These recommendations should directly relate to the 'mitigation' strategies outlined in both datasets.  Prioritize recommendations based on the severity and likelihood of the associated risks.  Make sure that recommendations are clear, concise, and easily implementable.
 
-Your response should be well-formatted and easy to understand.
+4. Plan of Action:
+    Create a step by step plan of action to fix the existing gaps from the gap analysis.
+
+Format your response as a well-structured JSON object with the following keys:
+- "requirements_checklist": array of objects with "requirement", "status" (true/false), and "explanation" fields
+- "compliance_status": object with "summary", "compliance_percentage", and "major_gaps" fields
+- "recommendations": array of objects with "priority", "recommendation", and "related_gap" fields
+- "plan_of_action": array of objects with "step", "description", and "timeline" fields
+
+Ensure the JSON output is properly formatted and valid.
 """
 
     if gemini_model:
@@ -114,10 +134,64 @@ Your response should be well-formatted and easy to understand.
         return "Error: Gemini model not initialized."
 
 
+def ensure_valid_json(text: str) -> dict:
+    """
+    Ensure the text is valid JSON or convert it to a valid JSON object.
+    Makes an effort to extract JSON content from text if needed.
+    """
+    try:
+        # Try to directly parse as JSON
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # Look for JSON-like content within text (between curly braces)
+        json_match = re.search(r'(\{.*\})', text, re.DOTALL)
+        if json_match:
+            try:
+                return json.loads(json_match.group(1))
+            except json.JSONDecodeError:
+                pass
+        
+        # If no valid JSON found, wrap the text in a JSON object
+        logger.warning("Could not parse response as JSON. Converting to text field.")
+        return {"response_text": text}
+
+
+def save_to_json(data: str, output_path: str) -> bool:
+    """Save data to a well-formatted JSON file."""
+    try:
+        # Ensure we have valid JSON
+        json_data = ensure_valid_json(data)
+        
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        # Write to file with proper formatting
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"Successfully saved well-formatted JSON to {output_path}")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to save data to {output_path}: {e}")
+        return False
+
+
 def main():
     """Main function to orchestrate the process."""
     try:
+        # Generate the checklist and recommendations
         checklist_and_recommendations = generate_checklist_and_recommendations(compliance, eligiblity)
+        
+        # Define the output path
+        output_path = os.path.join(project_root, 'data', 'checklist_output.json')
+        
+        # Save the output to a JSON file
+        if save_to_json(checklist_and_recommendations, output_path):
+            print(f"Output successfully saved to {output_path}")
+        else:
+            print("Failed to save output to file")
+        
+        # Also print to console for immediate viewing
         print(checklist_and_recommendations)
     except Exception as e:
         logger.error(f"An error occurred: {e}")

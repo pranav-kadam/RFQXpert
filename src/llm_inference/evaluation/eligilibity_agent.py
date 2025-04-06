@@ -52,7 +52,7 @@ except Exception as e:
 
 # --- Load RFP Data ---
 try:
-    rfp_data_path = os.path.join(project_root, 'data', 'processed', 'rfq.json')
+    rfp_data_path = os.path.join(project_root, 'RAG', 'data', 'embedding.json')
     with open(rfp_data_path, 'r', encoding='utf-8') as f:
         client_rfp_text_json = json.load(f)
     client_rfp_text_str = json.dumps(client_rfp_text_json, indent=2)

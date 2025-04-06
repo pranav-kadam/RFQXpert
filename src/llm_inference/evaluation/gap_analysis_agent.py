@@ -32,7 +32,7 @@ class GapAnalysis(TypedDict):
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = 'gemini-1.5-pro'  # ✅ Correct model name
 COMPANY_DATA_PATH = 'data/companydata.json'
-RFP_DATA_PATH = 'data/processed/rfq.json'
+RFP_DATA_PATH = 'RAG/data/embedding.json'
 
 if not GEMINI_API_KEY:
     logger.error("GEMINI_API_KEY environment variable not set.")

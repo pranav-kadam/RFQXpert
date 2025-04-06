@@ -10,7 +10,9 @@ load_dotenv()
 # Import async main functions from agents
 from evaluation.eligilibity_agent import main as eligibility_main
 from evaluation.compliance_agent import main as compliance_main
+from evaluation.gap_analysis_agent import main as poa_main
 from evaluation.checklist_agent import main as checklist_main
+
 
 async def run_agents():
     print("Running Eligibility Agent...")
@@ -18,6 +20,9 @@ async def run_agents():
 
     print("Running Compliance Agent...")
     await compliance_main()
+
+    print("Running  Gap Analysis Agent...")
+    await poa_main()
 
     print("Running Checklist Agent...")
     await checklist_main()
