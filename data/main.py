@@ -1,21 +1,21 @@
+# main.py
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
-import os
 from fastapi.middleware.cors import CORSMiddleware
+import json
 
 app = FastAPI()
 
+# Allow CORS for local frontend dev
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Restrict to your frontend in production
+    allow_origins=["http://localhost:3000"],  # Next.js dev server
     allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
-@app.get("/check")
-def get_checklist_output():
-    filepath = os.path.join("data", "checklist_output.json")
-    if os.path.exists(filepath):
-        return FileResponse(filepath, media_type="application/json")
-    return {"error": "File not found"}
+@app.get("/data")
+async def get_data():
+    with open("checklist_output.json", "r") as f:
+        data = json.load(f)
+    return data
