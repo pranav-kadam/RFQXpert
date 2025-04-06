@@ -24,8 +24,8 @@ async def run_agents():
     print("Running  Gap Analysis Agent...")
     await poa_main()
 
-    print("Running Checklist Agent...")
-    await checklist_main()
-
+    
+print("Running Checklist Agent...")
+checklist_main()
 if __name__ == "__main__":
     asyncio.run(run_agents())

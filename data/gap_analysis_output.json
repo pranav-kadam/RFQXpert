@@ -1,71 +1,41 @@
 {
   "gaps": [
     {
-      "requirement": "Minimum three (3) years of business in Temporary Staffing Services",
-      "current_capability": "4 years in business",
-      "gap": "None",
-      "recommendation": "Highlight the company's 4 years of experience in the proposal."
+      "requirement": "Minimum of three (3) years of business in Temporary Staffing Services",
+      "current_capability": "4 years in business, but only offering staffing services for some of those years.",
+      "gap": "While RFQXpert has been in business for 4 years, the RFP requires 3 years specifically in Temporary Staffing Services.  It's unclear if all 4 years qualify.",
+      "recommendation": "Clarify the number of years specifically providing Temporary Staffing Services.  If less than 3, highlight relevant experience and expertise that compensates for this shortfall, emphasizing successful past performance with similar clients."
     },
     {
-      "requirement": "Financial Stability demonstration (Annual Report, CPA Solvency Letter)",
-      "current_capability": "Credit Rating A, financials available but type of documentation not specified",
-      "gap": "Need to prepare specific financial documents requested.",
-      "recommendation": "Gather the required Annual Report and/or CPA Solvency Letter to demonstrate financial stability."
+      "requirement": "Applicant/employee testing conducted by agency.",
+      "current_capability": "Not specified in company capabilities.",
+      "gap": "The RFP requires details on applicant/employee testing, which RFQXpert does not provide.",
+      "recommendation": "Detail the types of applicant/employee testing conducted.  If no formal testing is in place, develop and implement appropriate tests based on industry best practices and the specific needs of the positions outlined in the RFP."
     },
     {
-      "requirement": "Employers Liability Insurance $500,000",
-      "current_capability": "$1M",
-      "gap": "None, exceeds requirement.",
-      "recommendation": "Clearly state the existing coverage in the proposal."
+      "requirement": "Employee training conducted by agency.",
+      "current_capability": "Not specified in company capabilities.",
+      "gap": "The RFP requires details on employee training, which RFQXpert doesn't provide.",
+      "recommendation": "Outline the types of training programs offered to employees.  Develop and implement training programs relevant to the positions requested by MHMR, focusing on skills, compliance, and safety."
     },
     {
-      "requirement": "CGL Occurrence $1,000,000, Aggregate $2,000,000 (Bodily/Personal Injury) and $1,000,000 (Property Damage)",
-      "current_capability": "General Liability $2M (unspecified breakdown)",
-      "gap": "Need to verify the breakdown of General Liability coverage meets specified limits.",
-      "recommendation": "Confirm with the insurance provider that the current policy meets or exceeds the RFP requirements. Adjust coverage if necessary or provide a clear breakdown of the existing $2M coverage."
+      "requirement": "Provide temporary staffing for Administrative, Medical, Caretaker, Finance, Accounting, Patient Financial Services, Credentialing, IT, and Legal Support Services.",
+      "current_capability": "Provides services in Healthcare, Government, Technology, and Professional Services, with a focus on staffing and HR consulting. Specific experience in some requested categories is not explicitly mentioned.",
+      "gap": "While RFQXpert has experience in related industries, direct experience in all required staffing categories, such as Caretaker, Patient Financial Services, and Credentialing, is not stated.",
+      "recommendation": "Clearly identify which of the listed positions RFQXpert can currently staff.  If unable to fill certain roles, explore partnerships with specialized staffing agencies or develop internal expertise to expand service offerings.  Highlight any transferable skills or experience that could be applied to these areas."
     },
     {
-      "requirement": "Auto Liability $500,000 combined single limit",
-      "current_capability": "$1M",
-      "gap": "None, exceeds requirement.",
-      "recommendation": "Clearly state the existing coverage in the proposal."
+      "requirement": "Workers' Compensation/Employer's Liability: $500,000",
+      "current_capability": "Workers' Compensation: Statutory; Employer's Liability: $1M",
+      "gap": "RFQXpert exceeds the workers' compensation requirement but needs to confirm if 'Statutory' aligns with MHMR's expectations.  Employer's Liability coverage is double the required amount.",
+      "recommendation": "Confirm with MHMR that 'Statutory' Workers' Compensation meets their requirements. While the higher Employer's Liability coverage is beneficial, consider adjusting it to $500,000 if cost savings are a priority."
     },
     {
-      "requirement": "Contractual Liability insurance",
-      "current_capability": "Not specified.",
-      "gap": "Potentially missing coverage.",
-      "recommendation": "Confirm with insurance provider about contractual liability coverage. Obtain coverage if needed, or clarify if existing general liability covers this."
-    },
-    {
-      "requirement": "Waiver of subrogation against MHMR",
-      "current_capability": "Not specified.",
-      "gap": "Need to include this in insurance policy.",
-      "recommendation": "Work with the insurance provider to add a waiver of subrogation clause to the policy benefiting MHMR."
-    },
-    {
-      "requirement": "Experience with Medical, Caretaker positions",
-      "current_capability": "Healthcare Staffing experience mentioned, but specific roles not explicitly stated.",
-      "gap": "Need to demonstrate experience with the specific positions mentioned in the RFP.",
-      "recommendation": "Highlight relevant experience in the proposal and potentially provide examples of similar roles staffed within healthcare settings.  If lacking direct experience, emphasize transferrable skills and training capabilities."
-    },
-    {
-      "requirement": "Dedicated Project Manager for MHMR account",
-      "current_capability": "Number of account managers specified, but dedicated PM not explicitly mentioned.",
-      "gap": "Need to assign a dedicated Project Manager.",
-      "recommendation": "Assign an existing account manager or designate another suitable employee as the dedicated Project Manager for the MHMR account. Introduce this individual in the proposal."
-    },
-    {
-      "requirement": "HUB/M/W/DBE Utilization (good faith effort)",
-      "current_capability": "HUB and NMSDC Certified",
-      "gap": "Need to demonstrate a good faith effort towards utilizing other specified categories (M/W/DBE) if applicable.",
-      "recommendation": "Complete Attachment A, explaining utilization efforts or providing justification if none.  Highlight existing HUB and NMSDC certifications."
-    },
-    {
-      "requirement": "Texas-specific certifications (Boycotting Israel, Prohibited Business Operations)",
-      "current_capability": "Not mentioned.",
-      "gap": "Need to obtain and submit the required certifications.",
-      "recommendation": "Obtain and include the necessary certifications regarding Boycotting Israel and Prohibited Business Operations in Texas as per Texas Government Code."
+      "requirement": "Automobile Liability: $500,000 minimum combined single limit",
+      "current_capability": "$1M Auto Liability",
+      "gap": "Exceeds the RFP requirement.",
+      "recommendation": "No action needed, but consider adjusting coverage to meet the minimum if cost optimization is desired."
     }
   ],
-  "summary": "RFQXpert is generally well-positioned to respond to this RFP.  Key gaps exist around insurance specifics (coverage types and clauses) and demonstrating experience with the required staffing categories. Addressing these gaps, providing the requested financial documentation, and ensuring compliance with all Texas-specific requirements will significantly strengthen the proposal."
+  "summary": "RFQXpert appears well-positioned to respond to this RFP, possessing relevant experience and certifications.  However, key gaps exist in demonstrating specific experience in all required staffing categories, detailing testing and training procedures, and clarifying the length of time specifically providing Temporary Staffing Services. Addressing these gaps by providing detailed information and potentially expanding service offerings will strengthen the proposal and increase the likelihood of success."
 }

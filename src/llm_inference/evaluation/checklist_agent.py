@@ -6,6 +6,7 @@ import sys
 import asyncio
 import requests
 from typing import Dict, List, Optional, TypedDict
+from dotenv import load_dotenv
 
 import google.generativeai as genai
 from google.api_core import exceptions as google_exceptions
@@ -195,19 +196,7 @@ def main():
         # Also print to console for immediate viewing
         print(checklist_and_recommendations)
 
-        # Send the JSON to the frontend endpoint
-        with open(output_path, 'rb') as f:
-           response = requests.post(
-    'http://localhost:3001/api/checklist_output',
-    headers={'Content-Type': 'application/json'},
-    data=json.dumps(checklist_and_recommendations)
-)
 
-
-        if response.status_code in [200, 201]:
-            print(f"Successfully sent checklist_output.json to frontend. Status code: {response.status_code}")
-        else:
-            print(f"Failed to send to frontend. Status code: {response.status_code}, response: {response.text}")
 
     except Exception as e:
         logger.error(f"An error occurred: {e}")

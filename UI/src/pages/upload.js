@@ -6,7 +6,7 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8000/data')
+    fetch('http://localhost:8001/data')
       .then((res) => {
         if (!res.ok) {
           throw new Error('Network response was not ok');
